@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link rel="stylesheet" href="app.css">
+  <script src="material.js"></script-->
+
+  <link rel="stylesheet" href="css/hammenu-led.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+  <link rel="stylesheet" href="css/materialicons.css">
+
+
+<style>
+
+.mdl-layout__drawer{
+  border-right: 0px solid #ffffff;
+}
+
+body{
+  background-color: #ffffff;
+
+}
+
+.mascot{
+  position: fixed;
+  top: 200px;
+  left: 25%;
+  width: 50%;
+  height: auto;
+}
+
+.about_text
+{
+  font-family: "roboto";
+  font-size: 15px;
+  color: #212121;
+  margin-top: 8px;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+
+}
+
+.about1
+{
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  color: #f57c00;
+  border-left-color: #f57c00;
+  border-left-style: solid;
+  border-left-width: 4px;
+  padding-left: 16px;
+  margin-left: 4.5%;
+
+}
+
+.about2
+{
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  color: #f57c00;
+  border-left-color: #f57c00;
+  border-left-style: solid;
+  border-left-width: 4px;
+  padding-left: 16px;
+  margin-left: 4.5%;
+
+
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+  <img src="img/mascot.png" class="mascot">
+
+    <!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Register</span>
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active"></a>
+      <!--a href="#fixed-tab-2" class="mdl-layout__tab is-active">What's New</a>
+      <a href="#fixed-tab-3" class="mdl-layout__tab">Contact</a-->
+    </div>
+  </header>
+  <!-- ham menu -->
+
+  <div class="mdl-layout__drawer">
+      <div class="ham-title" style="background-color: #34495e;">
+        <img src="img/bgmascot.png" style="position: relative; width: 100%; height: auto; opacity: 0.05;">
+        <img src="img/technoicon.png" style="position: absolute; top: 40px; left: 16px; width: 20.6%; height: auto;">
+        <span style="position: absolute; top: 56px; left: 96px; font-weight: 500; color: #eeeeee;">Technothlon'18</span>
+        <a href="https://www.technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">www.technothlon.techniche.org</a>
+      </div>
+      <div>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="whatsnew.html"><img src="img/ham-home.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Home</a>
+        <a class="mdl-navigation__link" href="tpedia.html"><img src="img/ham-tpedia.png" style="margin-right: 32px; color: #212121; width: 8.5%; height: 8.5%">Technopedia</a>
+        <a class="mdl-navigation__link" href="register.html" style="background-color: #e0e0e0; color: #f57c00;"><img src="img/ham-register-active.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Register</a>
+        <a class="mdl-navigation__link" href="LED.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">LED</a>
+        <a class="mdl-navigation__link" href="download.html"><img src="img/ham-download.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Downloads</a>
+        <a class="mdl-navigation__link" href="videos.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Videos</a>
+        <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">FAQs</a>
+
+      </nav>
+    </div>
+    </div>
+
+    <!-- End of Hame Menu-->
+
+
+  <main class="mdl-layout__content">
+    <section class="mdl-layout__tab-panel is-active">
+      <div class="page-content">
+
+        <img src="img/o9-register.gif" style="width: 91%; margin-left: 4.5%; margin-right: 4.5%; margin-top: 8px; box-shadow: 0 2px 10px 0 rgba(0,0,0,.16)">
+        <p class="about_text" style="margin-top: 16px;"><button class="mdl-button" id="register" style="font-size: 14px; color: #ffffff; font-weight: 500; background-color: #f57c00; border-radius: 2px;">Register Now</button></p>
+        <p class="about_text" style="margin-top: 24px;">The interested students can register themselves for the examination online or offline. Technothlon is conducted over various cities and centers with the help of city representatives. The city representatives are responsible to collect the registrations offline. The registration fees is ₹150 per team. Participating schools can collect the registration fees themselves and then prepare a demand draft to be handed over to the city representatives.</p>
+
+
+
+
+
+        <p class="about_text" style="margin-top: 24px; font-size:14px"><b>Note: </b>For Offline registration, contact your City Representative! 
+
+
+
+        <!-- Your content goes here --></div>
+    </section>
+
+  </main>
+</div>
+
+  <script src="cordova.js"></script>
+  <script src="js/register.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/expand-register.js"></script>
+  <script src="js/jquery.min.js"></script>
+
+</body>
+</html>

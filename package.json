@@ -1,0 +1,27 @@
+{
+  "name": "com.pilot.technoapp",
+  "version": "1.0.0",
+  "displayName": "Technothlon",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^6.2.3",
+    "cordova-plugin-whitelist": "1"
+  },
+  "devDependencies": {
+    "assemble": "^0.24.3",
+    "grunt": "^1.0.1",
+    "grunt-assemble": "^0.6.3",
+    "grunt-connect": "^0.2.0",
+    "grunt-contrib-connect": "^1.0.2"
+  },
+  "scripts": {
+    "build": "assemble"
+  }
+}
