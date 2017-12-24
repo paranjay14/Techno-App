@@ -11,7 +11,7 @@
   
   <!-- https://stackoverflow.com/questions/17653384/refused-to-execute-inline-script-because-it-violates-the-following-content-secur  -->
   <!-- This one is definitely BLOCKING it instead of UNBLOCKING  -->
-  <meta http-equiv="Content-Security-Policy" content="default-src *; font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://technothlon.techniche.org/function/citywcrep ">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://technothlon.techniche.org/function/citywcrep "> -->
 
 
 
@@ -536,30 +536,39 @@ $(function() {
 				              <span style="margin-left: 4.5%; font-family: 'roboto'; font-size: 12px; font-weight: 300;">Search your city</span><br>
 				
 				              <select class="select_menu" id="state" name="state" style="margin-top: 8px;">
-				                <option value="">Select State</option>
-				                        <option value="Andhra Pradesh">Andhra Pradesh</option>
-				                        <option value="Assam">Assam</option>
-				                        <option value="Bihar">Bihar</option>
-				                        <option value="Chandigarh">Chandigarh</option>
-				                        <option value="Chattisgarh">Chattisgarh</option>
-				                        <option value="Delhi (Nct)">Delhi (Nct)</option>
-				                        <option value="Goa">Goa</option>
-				                        <option value="Gujarat">Gujarat</option>
-				                        <option value="Haryana">Haryana</option>
-				                        <option value="Himachal Pradesh">Himachal Pradesh</option>
-				                        <option value="Jammu And Kashmir">Jammu And Kashmir</option>
-				                        <option value="Jharkhand">Jharkhand</option>
-				                        <option value="Karnataka">Karnataka</option>
-				                        <option value="Madhya Pradesh">Madhya Pradesh</option>
-				                        <option value="Maharashtra">Maharashtra</option>
-				                        <option value="Odisha">Odisha</option>
-				                        <option value="Punjab">Punjab</option>
-				                        <option value="Rajasthan">Rajasthan</option>
-				                        <option value="Tamil Nadu">Tamil Nadu</option>
-				                        <option value="Telangana">Telangana</option>
-				                        <option value="Uttar Pradesh">Uttar Pradesh</option>
-				                        <option value="Uttarakhand">Uttarakhand</option>
-				                        <option value="West Bengal">West Bengal</option>
+            <option value="">Select State</option>
+                        <option value="1">ANDHRA PRADESH</option>
+                        <option value="2">ARUNACHAL PRADESH</option>
+                        <option value="3">ASSAM</option>
+                        <option value="4">BIHAR</option>
+                        <option value="5">CHHATTISGARH</option>
+                        <option value="6">GOA</option>
+                        <option value="7">GUJARAT</option>
+                        <option value="8">HARYANA</option>
+                        <option value="9">HIMACHAL PRADESH</option>
+                        <option value="10">JAMMU &amp; KASHMIR</option>
+                        <option value="11">JHARKHAND</option>
+                        <option value="12">KARNATAKA</option>
+                        <option value="13">KERALA</option>
+                        <option value="14">MADHYA PRADESH</option>
+                        <option value="15">MAHARASHTRA</option>
+                        <option value="16">MANIPUR</option>
+                        <option value="17">MEGHALAYA</option>
+                        <option value="18">MIZORAM</option>
+                        <option value="19">NAGALAND</option>
+                        <option value="20">ODISHA</option>
+                        <option value="21">PUNJAB</option>
+                        <option value="22">RAJASTHAN</option>
+                        <option value="23">SIKKIM</option>
+                        <option value="24">TAMIL NADU</option>
+                        <option value="25">TELANGANA</option>
+                        <option value="26">TRIPURA</option>
+                        <option value="27">UTTARAKHAND</option>
+                        <option value="28">UTTAR PRADESH</option>
+                        <option value="29">WEST BENGAL</option>
+                        <option value="30">DELHI (NCT)</option>
+                        <option value="31">UNION TERRITORY</option>
+                      
 				              </select>
 				
 				              <select class="select_menu" disabled="disabled" id="city">
