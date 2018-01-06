@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.pilot.technoapp" version="1.0.0">
+<widget id="com.techniche.technothlon" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Technothlon</name>
     <description>
         Technothlon - The Ultimate Test Of Logic.
     </description>
-    <author email="ankit.ks@iitg.ernet.in">
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
     </author>
     <content src="whatsnew.html" />
     <access launch-external="yes" origin="*" />
     <allow-navigation href="*" />
     <access origin="http://*" />
     <access origin="https://*" />
+    <access origin="*" />
     <allow-intent href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -25,12 +27,22 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <allow-navigation href="*" />
     <preference name="SplashScreen" value="splash" />
     <preference name="SplashMaintainAspectRatio" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarBackgroundColor" value="#2c3d50" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <engine name="android" spec="^6.2.3" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-x-toast" spec="^2.6.0" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.1" />
+    <plugin name="cordova-plugin-screen-orientation" spec="^3.0.1" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^2.0.1" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.0" />
+    <plugin name="cordova-plugin-file" spec="^5.0.0" />
+    <plugin name="cordova-plugin-compat" spec="^1.2.0" />
+    <plugin name="cordova-plugin-device" spec="^2.0.1" />
+    <plugin name="cordova-plugin-console" spec="^1.1.0" />
+    <engine name="android" spec="^7.0.0" />
 </widget>

@@ -267,7 +267,7 @@ var receivedEvent =  function(id) {
 var download = function (url, store) {
     var fileTransfer = new FileTransfer();
     var uri = encodeURI(url);
-    var fileURL =  "file:///storage/emulated/0/technothlon/" + store;
+    var fileURL =  cordova.file.externalRootDirectory + store;
     var pdfurl;
     fileTransfer.download(
         uri,

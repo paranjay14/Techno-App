@@ -1,46 +1,49 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
     },
-    "installed_plugins": {
-        "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-screen-orientation": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-x-toast": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        }
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
     },
-    "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.pilot.technoapp"
-        }
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
     }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    }
+  }
 }
