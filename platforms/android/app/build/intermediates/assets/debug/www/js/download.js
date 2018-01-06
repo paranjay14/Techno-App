@@ -265,9 +265,21 @@ var receivedEvent =  function(id) {
 };
 
 var download = function (url, store) {
+
+var permissions = cordova.plugins.permissions
+
+    permissions.checkPermission(permissions.WRITE_EXTERNAL_STORAGE,
+        function(status){
+            if(!status.hasPermission){
+                permissions.requestPermission(permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
+            }
+            else{
+                console.log("Already Up To Date");
+            }
+        });
     var fileTransfer = new FileTransfer();
     var uri = encodeURI(url);
-    var fileURL =  "file:///storage/emulated/0/technothlon/" + store;
+    var fileURL =  cordova.file.externalRootDirectory + "Technothlon/" + store;
     var pdfurl;
     fileTransfer.download(
         uri,
@@ -310,7 +322,7 @@ var tryagain = function (url, store) {
             if(count == 0)
             {
                 var toast= window.plugins.toast;
-                toast.show("Error in downloading the file", 200 ,"bottom");
+                toast.show("Cannot Download Permission Not Granted", 1000 ,"bottom");
             }
         },
         false,

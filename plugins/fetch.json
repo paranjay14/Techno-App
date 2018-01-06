@@ -31,14 +31,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-screen-orientation": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-screen-orientation"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "es6-promise-plugin": {
     "source": {
       "type": "registry",
@@ -99,6 +91,22 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-console"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-android-permissions": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-android-permissions"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-screen-orientation": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-screen-orientation"
     },
     "is_top_level": true,
     "variables": {}

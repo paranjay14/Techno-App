@@ -30,20 +30,6 @@ module.exports = [
     ]
   },
   {
-    "id": "es6-promise-plugin.Promise",
-    "file": "plugins/es6-promise-plugin/www/promise.js",
-    "pluginId": "es6-promise-plugin",
-    "runs": true
-  },
-  {
-    "id": "cordova-plugin-screen-orientation.screenorientation",
-    "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
-    "pluginId": "cordova-plugin-screen-orientation",
-    "clobbers": [
-      "cordova.plugins.screenorientation"
-    ]
-  },
-  {
     "id": "cordova-plugin-network-information.network",
     "file": "plugins/cordova-plugin-network-information/www/network.js",
     "pluginId": "cordova-plugin-network-information",
@@ -265,6 +251,28 @@ module.exports = [
     "clobbers": [
       "device"
     ]
+  },
+  {
+    "id": "cordova-plugin-android-permissions.Permissions",
+    "file": "plugins/cordova-plugin-android-permissions/www/permissions.js",
+    "pluginId": "cordova-plugin-android-permissions",
+    "clobbers": [
+      "cordova.plugins.permissions"
+    ]
+  },
+  {
+    "id": "es6-promise-plugin.Promise",
+    "file": "plugins/es6-promise-plugin/www/promise.js",
+    "pluginId": "es6-promise-plugin",
+    "runs": true
+  },
+  {
+    "id": "cordova-plugin-screen-orientation.screenorientation",
+    "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+    "pluginId": "cordova-plugin-screen-orientation",
+    "clobbers": [
+      "cordova.plugins.screenorientation"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -274,14 +282,15 @@ module.exports.metadata =
   "cordova-plugin-x-toast": "2.6.0",
   "cordova-plugin-statusbar": "2.4.1",
   "cordova-plugin-splashscreen": "5.0.1",
-  "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-screen-orientation": "3.0.1",
   "cordova-plugin-network-information": "2.0.1",
   "cordova-plugin-inappbrowser": "2.0.1",
   "cordova-plugin-file": "5.0.0",
   "cordova-plugin-file-transfer": "1.7.0",
   "cordova-plugin-device": "2.0.1",
-  "cordova-plugin-console": "1.1.0"
+  "cordova-plugin-console": "1.1.0",
+  "cordova-plugin-android-permissions": "1.0.0",
+  "es6-promise-plugin": "4.2.2",
+  "cordova-plugin-screen-orientation": "3.0.1"
 };
 // BOTTOM OF METADATA
 });

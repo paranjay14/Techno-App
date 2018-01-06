@@ -19,9 +19,6 @@
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.techniche.technothlon"
     },
-    "cordova-plugin-screen-orientation": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.techniche.technothlon"
     },
@@ -38,6 +35,12 @@
       "PACKAGE_NAME": "com.techniche.technothlon"
     },
     "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.techniche.technothlon"
+    },
+    "cordova-plugin-screen-orientation": {
       "PACKAGE_NAME": "com.techniche.technothlon"
     }
   },

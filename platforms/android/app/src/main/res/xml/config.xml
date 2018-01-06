@@ -15,9 +15,6 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="CDVOrientation">
-        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
-    </feature>
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
@@ -35,12 +32,18 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
+    <feature name="Permissions">
+        <param name="android-package" value="com.android.plugins.Permissions" />
+    </feature>
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
     <name>Technothlon</name>
     <description>
         Technothlon - The Ultimate Test Of Logic.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="apurva9@iitg.ac.in" href="technothlon.techniche.org">
+        Apurva N. Saraogi
     </author>
     <content src="whatsnew.html" />
     <access launch-external="yes" origin="*" />
