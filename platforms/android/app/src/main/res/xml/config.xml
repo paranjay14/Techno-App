@@ -64,9 +64,8 @@
     <icon density="xhdpi" src="res/icon/drawable-xhdpi/ic_launcher.png" />
     <icon density="xxhdpi" src="res/icon/drawable-xxhdpi/ic_launcher.png" />
     <icon density="xxxhdpi" src="res/icon/drawable-xxxhdpi/ic_launcher.png" />
-    <splash src="res/screen/android/screen-hdpi-portrait.png" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="SplashMaintainAspectRatio" value="True" />
     <preference name="ShowSplashScreenSpinner" value="False" />
