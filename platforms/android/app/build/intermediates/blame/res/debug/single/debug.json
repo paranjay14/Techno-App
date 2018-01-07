@@ -16,16 +16,34 @@
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_remove.png.flat",
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/drawable-xxhdpi/ic_action_remove.png"
+=======
+        "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-hdpi/ic_action_next_item.png"
+    },
+    {
+        "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
+        "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
+>>>>>>> 5ed9b567c28dc93a169739c23d4ea5d351de966c
     },
     {
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_previous_item.png.flat",
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/drawable-xxhdpi/ic_action_previous_item.png"
+=======
+        "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
+        "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+>>>>>>> 5ed9b567c28dc93a169739c23d4ea5d351de966c
     },
     {
         "merged": "/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_previous_item.png.flat",
@@ -40,12 +58,17 @@
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/xml/config.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
     },
     {
         "merged": "/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
+=======
+        "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
+        "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
+>>>>>>> 5ed9b567c28dc93a169739c23d4ea5d351de966c
     },
     {
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_next_item.png.flat",
@@ -72,6 +95,7 @@
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },
@@ -80,10 +104,13 @@
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
     },
     {
+=======
+>>>>>>> 5ed9b567c28dc93a169739c23d4ea5d351de966c
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
@@ -96,10 +123,13 @@
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },
     {
+=======
+>>>>>>> 5ed9b567c28dc93a169739c23d4ea5d351de966c
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_remove.png.flat",
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-hdpi/ic_action_remove.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_remove.png.flat",
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/drawable-hdpi/ic_action_remove.png"
     },
@@ -196,6 +226,8 @@
         "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/drawable-xhdpi/ic_action_next_item.png"
     },
     {
+=======
+>>>>>>> 5ed9b567c28dc93a169739c23d4ea5d351de966c
         "merged": "/home/apurva/Technothlon/Technothlon/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_previous_item.png.flat",
         "source": "/home/apurva/Technothlon/Technothlon/platforms/android/app/src/main/res/drawable-mdpi/ic_action_previous_item.png"
     },
