@@ -1,0 +1,26 @@
+var lat = 12.9716;
+var lang = 77.5946;
+var gr = lat + ',' + lang
+var label = encodeURI('Exam Centre XYZ'); // encode the label!
+window.open('geo:0,0?q=' + gr + '('  + label + ')' , '_system')
+
+
+/*
+
+Android, no pin (just open at location)
+geo:LAT,LNG
+Android, with pin
+geo:0,0?q=LAT,LNG
+Android, with pin, with custom label
+geo:0,0?q=LAT,LNG(LABEL)
+
+
+*/
+
+/*
+window.open('fb://hashtag/JaiTechno' , '_system')
+Will Open Any App
+window.open('https://medium.com/@technothlon' , '_system')
+http://www.youtube.com/watch?v=cxLG2wtE7TM
+May be we can say to like our pages more easily as there is no login no logout they feel secure.
+*/
