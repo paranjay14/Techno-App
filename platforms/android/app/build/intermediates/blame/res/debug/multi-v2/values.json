@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/apurva/Technothlon/Techno-App-5ed9b567c28dc93a169739c23d4ea5d351de966c/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/paranjay/Pictures/Techno-App/platforms/android/app/src/main/res/values/strings.xml",
+                    "source": "/home/apurva/Technothlon/Techno-App-5ed9b567c28dc93a169739c23d4ea5d351de966c/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
