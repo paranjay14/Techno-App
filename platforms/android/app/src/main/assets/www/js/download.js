@@ -99,161 +99,179 @@ var onDeviceReady =  function() {
     // });
 
     document.getElementById('dwnbtn').addEventListener('click', function () {
-        if ($('#year').val() == '2016' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
+        if ($('#year').val() == '2017' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
+            count = 1;
+            toast.show("Downloading...",1000,'bottom');
+            download("https://drive.google.com/uc?authuser=0&id=1PH4Ck8FZRD_JvL6L8kSsvTEwESxi7LML&export=download", "Previous Years' Papers/2017/en-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
+        }
+        else if ($('#year').val() == '2016' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 3;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFRHNUTG9aT3RTMmM", "2016/en-h-Ques.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFd0JTQ28xM3VFX1E", "2016/en-h-Sol.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFVV84SVpCcEpIZVU", "2016/en-h-Ans.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFRHNUTG9aT3RTMmM", "Previous Years' Papers/2016/en-h-Ques.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFd0JTQ28xM3VFX1E", "Previous Years' Papers/2016/en-h-Sol.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFVV84SVpCcEpIZVU", "Previous Years' Papers/2016/en-h-Ans.pdf");
+            toast.show("Download finished",3000,'bottom');
         } else if ($('#year').val() == '2015' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 3;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFbEdSbUpreEJBSjA", "2015/en-h-Ques.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFcC1wVi05NU5sVWc", "2015/en-h-Sol.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFOU9BdU52UEI2emc", "2015/en-h-Ans.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFbEdSbUpreEJBSjA", "Previous Years' Papers/2015/en-h-Ques.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFcC1wVi05NU5sVWc", "Previous Years' Papers/2015/en-h-Sol.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFOU9BdU52UEI2emc", "Previous Years' Papers/2015/en-h-Ans.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2014' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 2;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFWTdERkZEVXYyRjg", "2014/en-h-Ques.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFS3FoQWcyczV1ejg", "2014/en-h-Ans.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFWTdERkZEVXYyRjg", "Previous Years' Papers/2014/en-h-Ques.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFS3FoQWcyczV1ejg", "Previous Years' Papers/2014/en-h-Ans.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2013' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSVJ6bU4xUlh5S2M", "2013/en-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSVJ6bU4xUlh5S2M", "Previous Years' Papers/2013/en-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2012' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFbmpTaDJ0M09kcW8", "2012/en-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFbmpTaDJ0M09kcW8", "Previous Years' Papers/2012/en-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2011' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFZ0Z5dXdmRUNjdzg", "2011/en-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFZ0Z5dXdmRUNjdzg", "Previous Years' Papers/2011/en-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2010' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFNTE2THhxeS1vSDA", "2010/en-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFNTE2THhxeS1vSDA", "Previous Years' Papers/2010/en-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2009' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFekNxclJGQ0RGbW8", "2009/en-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFekNxclJGQ0RGbW8", "Previous Years' Papers/2009/en-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2008' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFUWEwOEFKd0JrYms", "2008/en-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFUWEwOEFKd0JrYms", "Previous Years' Papers/2008/en-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
+
+        } else if ($('#year').val() == '2017' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
+            count = 1;
+            toast.show("Downloading...",1000,'bottom');
+            download("https://drive.google.com/uc?authuser=0&id=1ccMNa0WrQceIsA6gAZuIF49r_LHKutxs&export=download", "Previous Years' Papers/2017/en-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2016' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 3;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFOWRjZVlQWW41WWM", "2016/en-j-Ques.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFNEF3Z0pNdllaUVU", "2016/en-j-Sol.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdUszQk94UFZwNTA", "2016/en-j-Ans.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFOWRjZVlQWW41WWM", "Previous Years' Papers/2016/en-j-Ques.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFNEF3Z0pNdllaUVU", "Previous Years' Papers/2016/en-j-Sol.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdUszQk94UFZwNTA", "Previous Years' Papers/2016/en-j-Ans.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2015' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 3;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSHZKbFpzR3Rmc3c", "2015/en-j-Ques.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFUFZkZmNrWUhJTVU", "2015/en-j-Sol.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFY3RBZDg2QUl3b1k", "2015/en-j-Ans.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSHZKbFpzR3Rmc3c", "Previous Years' Papers/2015/en-j-Ques.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFUFZkZmNrWUhJTVU", "Previous Years' Papers/2015/en-j-Sol.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFY3RBZDg2QUl3b1k", "Previous Years' Papers/2015/en-j-Ans.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2014' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 2;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdWRGTmlvTjZsZ2s", "2014/en-j-Ques.pdf");
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFVnhKWm5IRTdDbTA", "2014/en-j-Ans.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdWRGTmlvTjZsZ2s", "Previous Years' Papers/2014/en-j-Ques.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFVnhKWm5IRTdDbTA", "Previous Years' Papers/2014/en-j-Ans.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2013' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFQ0MwNk80N1ZZekE", "2013/en-j-Ques.pdf");
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFQ0MwNk80N1ZZekE", "Previous Years' Papers/2013/en-j-Ques.pdf");
 
-            toast.show("Download finished",1000,'bottom');
+            toast.show("Download finished",3000,'bottom');
         } else if ($('#year').val() == '2012' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFN0hUZzRuM25ibGs", "2012/en-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFN0hUZzRuM25ibGs", "Previous Years' Papers/2012/en-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2011' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             toast.show("Downloading...",1000,'bottom');
             count = 1;
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSTJ0a3VldmlBYU0", "2011/en-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSTJ0a3VldmlBYU0", "Previous Years' Papers/2011/en-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2010' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSFZLSFNCcHplbjQ", "2010/en-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSFZLSFNCcHplbjQ", "Previous Years' Papers/2010/en-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2009' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSmNOQVdONngzRzg", "2009/en-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSmNOQVdONngzRzg", "Previous Years' Papers/2009/en-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2008' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdXpxcHVzMlllVnc", "2008/en-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdXpxcHVzMlllVnc", "Previous Years' Papers/2008/en-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2016' && $('#category').val() == 'HAUTS' && $('#language').val() == 'Hindi') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdGNWOXdJamlaY0k", "2016/hi-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdGNWOXdJamlaY0k", "Previous Years' Papers/2016/hi-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2015' && $('#category').val() == 'HAUTS' && $('#language').val() == 'Hindi') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSzI0LVpIR3FYTXM", "2015/hi-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
-
-        } else if ($('#year').val() == '2016' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'Hindi') {
-            count = 1;
-            toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFTF9fY2Naam9GUjg", "2016/hi-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
-
-        } else if ($('#year').val() == '2015' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'Hindi') {
-            count = 1;
-            toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFQUg2V0oxN01SUVE", "2015/hi-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFSzI0LVpIR3FYTXM", "Previous Years' Papers/2015/hi-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2014' && $('#category').val() == 'HAUTS' && $('#language').val() == 'Hindi') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFR19zV0dsX2lGZTg", "2014/hi-h-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFR19zV0dsX2lGZTg", "Previous Years' Papers/2014/hi-h-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
+
+        } else if ($('#year').val() == '2017' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'Hindi') {
+            count = 1;
+            toast.show("Downloading...",1000,'bottom');
+            download("https://drive.google.com/uc?authuser=0&id=1j6Z5l_oq703GdpIJTAxAbyceZY_lZzUV&export=download", "Previous Years' Papers/2017/hi-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
+
+        } else if ($('#year').val() == '2016' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'Hindi') {
+            count = 1;
+            toast.show("Downloading...",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFTF9fY2Naam9GUjg", "Previous Years' Papers/2016/hi-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
+
+        } else if ($('#year').val() == '2015' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'Hindi') {
+            count = 1;
+            toast.show("Downloading...",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFQUg2V0oxN01SUVE", "Previous Years' Papers/2015/hi-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         } else if ($('#year').val() == '2014' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'Hindi') {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
-            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFREhxWmE4UmNJNEE", "2014/hi-j-Ques.pdf");
-            toast.show("Download finished",1000,'bottom');
+            download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFREhxWmE4UmNJNEE", "Previous Years' Papers/2014/hi-j-Ques.pdf");
+            toast.show("Download finished",3000,'bottom');
 
         }else{
-            toast.show("Give Correct Input");
+            toast.show("Error. Give Correct Input.");
 
         }
 
@@ -272,9 +290,11 @@ var permissions = cordova.plugins.permissions
         function(status){
             if(!status.hasPermission){
                 permissions.requestPermission(permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
+                toast.show("Cannot Download. Permission Not Granted", 1000 ,"bottom");
             }
             else{
                 console.log("Already Up To Date");
+                toast.show("Cannot Download. No internet connection.", 1000 ,"bottom");
             }
         });
     var fileTransfer = new FileTransfer();
@@ -286,8 +306,9 @@ var permissions = cordova.plugins.permissions
         fileURL,
         function(entry) {
             pdfurl = entry.toURL();
+            toast.show(pdfurl);
             count--;
-            // alert("Files Downloaded in Internal Storage");
+            //alert("Files Downloaded in Internal Storage");
 
         },
         function(error) {
@@ -314,7 +335,7 @@ var tryagain = function (url, store) {
         function(entry) {
             pdfurl = entry.toURL();
             count--;
-            // alert("File Downloaded in SD Card");
+            alert("File Downloaded in SD Card");
 
         },
         function(error) {
@@ -322,7 +343,7 @@ var tryagain = function (url, store) {
             if(count == 0)
             {
                 var toast= window.plugins.toast;
-                toast.show("Cannot Download Permission Not Granted", 1000 ,"bottom");
+                toast.show("Cannot Download. Permission Not Granted", 1000 ,"bottom");
             }
         },
         false,

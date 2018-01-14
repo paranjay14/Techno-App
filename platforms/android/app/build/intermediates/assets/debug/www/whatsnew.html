@@ -277,8 +277,9 @@
         <a class="mdl-navigation__link" href="LED.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">LED</a>
         <a class="mdl-navigation__link" href="download.html"><img src="img/ham-download.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">Downloads</a>
         <a class="mdl-navigation__link" href="videos.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">Videos</a>
+        <a class="mdl-navigation__link" href="blogs.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Blogs</a>
+        <a class="mdl-navigation__link" href="mains.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">MAINS</a>
         <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">FAQs</a>
-
       </nav>
     </div>
   </div>
@@ -347,8 +348,7 @@ $(function() {
         <!-- <section class="mdl-layout__tab-panel" id="fixed-tab-1"> -->
         <section id="fixed-tab-1">
           <div class="page-content">
-            <p class="about_text">Through a series of events involving mental aptitude, logic, and dexterity, we seek to provide school students, 
-              a platform to build fundamental experience and knowledge, <br>
+            <p class="about_text">Through a series of events involving mental aptitude, logic, and dexterity, we seek to provide school students, a platform to build fundamental experience and knowledge, <br>
               to exercise co-ordination skills, and <br>
               to think out of the box !</p>
         
@@ -410,7 +410,7 @@ $(function() {
     <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-bottom: 8px;">
 
       <div class="mdl-card__media">
-        <img src="img/win_poster.jpg" style="width: 100%; height: auto;">
+        <img src="img/winter_poster.jpg" style="width: 100%; height: auto;">
       </div>
 
       <div class="mdl-card__title mdl-card--expand">
@@ -452,15 +452,15 @@ $(function() {
       <!--Fixed list-->
       <div class="mdl-card__supporting-text mdl-card--expand" id="card" style="padding-bottom:0px; padding-top:0px;">
         <ul style="position:relative; margin-bottom:0px;">
-        <li>Some Recent Updates</li>
-        <li>More Below</li>
+        <li>Online Registrations</li>
+        <li>Technopedia</li>
         </ul>
       </div>
       <!--Generated list-->
       <div class="mdl-card__supporting-text mdl-card--expand text6" id="card" style="padding-top:0px;">
         <ul id="mylist" style="position:relative;">
-        <li>Hello</li>
-        <li>Okay</li>
+        <li>Techno Coup D'oeil E0501</li>
+        <li>Technothlon Official Blog</li>
 
         </ul>
       </div>
@@ -745,7 +745,7 @@ $(function() {
 				            <h2 class="mdl-card__title-text">South Zone</h2>
 				          </div>
 				        
-				          <span style="margin-left:16px; margin-bottom: 16px;" id="name5" class="name2">  <img src="img/person.png" class="icon_ashu"><span style="font-size: 14px; font-family: "roboto"; font-weight: 500; margin-left: 8px;">K. Harsha Vardhan</span></span>
+				          <span style="margin-left:16px; margin-bottom: 16px;" id="name5" class="name2">  <img src="img/person.png" class="icon_ashu"><span style="font-size: 14px; font-family: "roboto"; font-weight: 500; margin-left: 8px;">K. Harsha Vardhan Reddy</span></span>
 				        
 				          <div class="mdl-card__supporting-text" id="contact_info5">
 				        
@@ -887,7 +887,8 @@ $(function() {
 	    $('#crepsbycity').hide();
 	  }
 	});
-	</script><script>
+	</script>
+  <script>
 	$(document).ready(function () {
 	  var storage = window.localStorage;
 	  var c = storage.getItem('count');
@@ -919,7 +920,9 @@ $(function() {
 	$('#month').html('(' + n + ')');
 	</script>
 	<script type="text/javascript">
-  window.screen.orientation.lock("potrait");
+  window.screen.orientation.lock("portrait").catch(function() {
+    // whatever
+});
 </script>
 	<script>
 	$(document).ready(function () {

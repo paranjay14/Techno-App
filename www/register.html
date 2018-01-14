@@ -72,7 +72,8 @@ body{
 
 
 </style>
-
+<script src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -100,7 +101,7 @@ body{
         <img src="img/bgmascot.png" style="position: relative; width: 100%; height: auto; opacity: 0.05;">
         <img src="img/technoicon.png" style="position: absolute; top: 40px; left: 16px; width: 20.6%; height: auto;">
         <span style="position: absolute; top: 56px; left: 96px; font-weight: 500; color: #eeeeee;">Technothlon'18</span>
-        <a href="https://www.technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">www.technothlon.techniche.org</a>
+        <a href="https://technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">technothlon.techniche.org</a>
       </div>
       <div>
       <nav class="mdl-navigation">
@@ -110,16 +111,51 @@ body{
         <a class="mdl-navigation__link" href="LED.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">LED</a>
         <a class="mdl-navigation__link" href="download.html"><img src="img/ham-download.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Downloads</a>
         <a class="mdl-navigation__link" href="videos.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Videos</a>
+        <a class="mdl-navigation__link" href="blogs.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Blogs</a>
+        <a class="mdl-navigation__link" href="mains.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">MAINS</a>
         <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">FAQs</a>
-
       </nav>
     </div>
     </div>
 
     <!-- End of Hame Menu-->
 
+<script>
+// swipe functionality
+$(function() {
+  $(".mdl-layout__drawer, .mdl-layout").on('swipeleft',function() {
+    if($('.mdl-layout__obfuscator').hasClass('is-visible')){
+      // close ham menu, layout__obfuscator is on only when menu is open
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+    else{
+      console.log('Bug in swipe');
+    }
+  });
 
-  <main class="mdl-layout__content">
+  $(".swiperegion").on('swiperight',function() {
+    var $tab = $('#tablist .active').prev();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+    else{
+      // open ham menu
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+  });
+  $(".swiperegion").on('swipeleft',function() {
+    var $tab = $('#tablist .active').next();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+  });
+});
+</script>
+<!-- For swipe gestures -->
+<script src="js/jqm/jquery.mobile.custom.js"></script>
+
+
+  <main class="mdl-layout__content swiperegion">
     <section class="mdl-layout__tab-panel is-active">
       <div class="page-content">
 
@@ -148,7 +184,9 @@ body{
   <script src="js/jquery.min.js"></script>
 
 <script type="text/javascript">
-  window.screen.orientation.lock("potrait");
+  window.screen.orientation.lock("portrait").catch(function() {
+    // whatever
+});
 </script>
 </body>
 </html>

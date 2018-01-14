@@ -33,6 +33,7 @@
         <icon density="xhdpi" src="res/icon/drawable-xhdpi/ic_launcher.png" />
         <icon density="xxhdpi" src="res/icon/drawable-xxhdpi/ic_launcher.png" />
         <icon density="xxxhdpi" src="res/icon/drawable-xxxhdpi/ic_launcher.png" />
+        <splash src="res/screen/android/bgmascot.jpg" />
     </platform>
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
