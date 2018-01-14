@@ -24,3 +24,8 @@ window.open('https://medium.com/@technothlon' , '_system')
 http://www.youtube.com/watch?v=cxLG2wtE7TM
 May be we can say to like our pages more easily as there is no login no logout they feel secure.
 */
+
+
+
+keytool -genkey -v -keystore T18.keystore -alias T18 -keyalg RSA -keysize 2048 -validity 10000
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore T18.keystore app-release-unsigned.apk T18
