@@ -100,9 +100,11 @@ var onDeviceReady =  function() {
 
     document.getElementById('dwnbtn').addEventListener('click', function () {
         if ($('#year').val() == '2017' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
-            count = 1;
+            count = 3;
             toast.show("Downloading...",1000,'bottom');
             download("https://drive.google.com/uc?authuser=0&id=1PH4Ck8FZRD_JvL6L8kSsvTEwESxi7LML&export=download", "2017-EN-Hauts-Ques.pdf");
+            download("https://drive.google.com/uc?authuser=0&id=1PzjOeQA_JNoSFsK3RkaPdeIgyfnFfMca&export=download", "2017-EN-Hauts-Sol.pdf");
+            download("https://drive.google.com/uc?authuser=0&id=18yZpjHUWjb2CV6fzmymVBmZrt6u_60ty&export=download", "2017-EN-Hauts-Ans.pdf");
         }
         else if ($('#year').val() == '2016' && $('#category').val() == 'HAUTS' && $('#language').val() == 'English') {
             count = 3;
@@ -154,9 +156,11 @@ var onDeviceReady =  function() {
             download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFUWEwOEFKd0JrYms", "2008-EN-Hauts-Ques.pdf");
 
         } else if ($('#year').val() == '2017' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
-            count = 1;
+            count = 3;
             toast.show("Downloading...",1000,'bottom');
             download("https://drive.google.com/uc?authuser=0&id=1ccMNa0WrQceIsA6gAZuIF49r_LHKutxs&export=download", "2017-EN-JUNIORS-Ques.pdf");
+            download("https://drive.google.com/uc?authuser=0&id=1cyaQ8M6_3MgvO9hMYar12Pn3cQsMUfcJ&export=download", "2017-EN-JUNIORS-Sol.pdf");
+            download("https://drive.google.com/uc?authuser=0&id=1sz1MPjXeGr6w1BVcdtu9nyxc_CcCHqIv&export=download", "2017-EN-JUNIORS-Ans.pdf");
 
         } else if ($('#year').val() == '2016' && $('#category').val() == 'JUNIOR' && $('#language').val() == 'English') {
             count = 3;
@@ -207,6 +211,11 @@ var onDeviceReady =  function() {
             count = 1;
             toast.show("Downloading...",1000,'bottom');
             download("https://drive.google.com/uc?export=download&id=0B5-GsYZi9MQFdXpxcHVzMlllVnc", "2008-EN-JUNIORS-Ques.pdf");
+
+        } else if ($('#year').val() == '2017' && $('#category').val() == 'HAUTS' && $('#language').val() == 'Hindi') {
+            count = 1;
+            toast.show("Downloading...",1000,'bottom');
+            download("https://drive.google.com/uc?authuser=0&id=1NotSywKfgumMl81-TRHEKCczNBSVBi8L&export=download", "2017-HI-HAUTS-Ques.pdf");
 
         } else if ($('#year').val() == '2016' && $('#category').val() == 'HAUTS' && $('#language').val() == 'Hindi') {
             count = 1;
