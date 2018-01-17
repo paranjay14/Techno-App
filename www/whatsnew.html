@@ -13,8 +13,12 @@
   <!-- This one is definitely BLOCKING it instead of UNBLOCKING  -->
   <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://technothlon.techniche.org/function/citywcrep "> -->
 
+<script type="text/javascript" src="js/crep.js"></script>
+<script type="text/javascript">
 
+      var crep = loadedCreps;
 
+</script>
 
   <style>
   /*for videos-
@@ -452,15 +456,15 @@ $(function() {
       <!--Fixed list-->
       <div class="mdl-card__supporting-text mdl-card--expand" id="card" style="padding-bottom:0px; padding-top:0px;">
         <ul style="position:relative; margin-bottom:0px;">
-        <li>Online Registrations</li>
-        <li>Technopedia</li>
+        <!-- <li>Register Online through App!</li> -->
+        <li>Technopedia'18 is now live!</li>
         </ul>
       </div>
       <!--Generated list-->
       <div class="mdl-card__supporting-text mdl-card--expand text6" id="card" style="padding-top:0px;">
         <ul id="mylist" style="position:relative;">
         <li>Techno Coup D'oeil E0501</li>
-        <li>Technothlon Official Blog</li>
+        <li>Read the Official Technothlon Blogs!</li>
 
         </ul>
       </div>
@@ -473,10 +477,10 @@ $(function() {
     </div>
 
 
-    <!-- <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-bottom: 8px;">
+    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-bottom: 8px;">
 
       <div class="mdl-card__media">
-        <img src="img/tpediaposter.jpg" style="width: 100%; height: auto;">
+        <img src="img/tpedia18.jpg" style="width: 100%; height: auto;">
       </div>
 
       <div class="mdl-card__title mdl-card--expand">
@@ -489,7 +493,7 @@ $(function() {
         </a>
       </div>
       
-    </div> -->
+    </div>
 
 
     <!--Card3-->
@@ -843,26 +847,29 @@ $(function() {
 	    $('#city').prop('disabled', 1);
 	  }
 	  else {
-	    var city = "http://technothlon.techniche.org/function/app/citywcrep";
-	    $('#city').html('<option value="">Loading</option>');
-	    $.ajax({
-	      url: city,
-	      type: "GET",
-	      dataType: "jsonp",
-	      // method: 'post',
-	      // You can't POST using JSONP...it simply doesn't work that way, it creates a <script> element to fetch data...which has to be a GET request.
-	      crossDomain: true,
-	      data: {'jsonpCallback': 'jsonDataParse2','state': $(this).val(),'mode':'app_crep_interface'},
-	      jsonpCallback: 'jsonDataParse2',
-	      success: function(result) {
-	        $('#city').prop('disabled', 0);
-	        $('#city').html(result.response);
-	      },
-	      error: function(e){
-	        alert("Error loading list");
-	      }
-	    });
+	    // var city = "http://technothlon.techniche.org/function/app/citywcrep";
+	    // $('#city').html('<option value="">Loading</option>');
+	    // $.ajax({
+	    //   url: city,
+	    //   type: "GET",
+	    //   dataType: "jsonp",
+	    //   // method: 'post',
+	    //   // You can't POST using JSONP...it simply doesn't work that way, it creates a <script> element to fetch data...which has to be a GET request.
+	    //   crossDomain: true,
+	    //   data: {'jsonpCallback': 'jsonDataParse2','state': $(this).val(),'mode':'app_crep_interface'},
+	    //   jsonpCallback: 'jsonDataParse2',
+	    //   success: function(result) {
+	    //     $('#city').prop('disabled', 0);
+	    //     $('#city').html(result.response);
+	    //   },
+	    //   error: function(e){
+	    //     alert("Error loading list");
+	    //   }
+	    // });
 	  }
+    var response = 
+        $('#city').prop('disabled', 0);
+          $('#city').html(response);
 	});
 	
 	
