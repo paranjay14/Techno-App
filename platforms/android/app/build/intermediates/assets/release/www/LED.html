@@ -35,7 +35,8 @@ body{
   margin-top: 8px; margin-left: 4.5%; margin-right: 4.5%;
 }
 </style>
-
+<script src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -63,7 +64,7 @@ body{
         <img src="img/bgmascot.png" style="position: relative; width: 100%; height: auto; opacity: 0.05;">
         <img src="img/technoicon.png" style="position: absolute; top: 40px; left: 16px; width: 20.6%; height: auto;">
         <span style="position: absolute; top: 56px; left: 96px; font-weight: 500; color: #eeeeee;">Technothlon'18</span>
-        <a href="https://www.technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">www.technothlon.techniche.org</a>
+        <a href="http://technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">technothlon.techniche.org</a>
       </div>
       <div>
       <nav class="mdl-navigation">
@@ -73,16 +74,52 @@ body{
         <a class="mdl-navigation__link" href="LED.html"  style="background-color: #e0e0e0; color: #f57c00;"><img src="img/ham-led-active.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">LED</a>
         <a class="mdl-navigation__link" href="download.html"><img src="img/ham-download.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Downloads</a>
         <a class="mdl-navigation__link" href="videos.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Videos</a>
+        <a class="mdl-navigation__link" href="blogs.html"><img src="img/ham-blog.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Blogs</a>
+        <a class="mdl-navigation__link" href="mains.html"><img src="img/ham-gallery.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">MAINS</a>
         <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">FAQs</a>
-
+        
       </nav>
     </div>
     </div>
 
     <!-- End of Hame Menu-->
 
+<script>
+// swipe functionality
+$(function() {
+  $(".mdl-layout__drawer, .mdl-layout").on('swipeleft',function() {
+    if($('.mdl-layout__obfuscator').hasClass('is-visible')){
+      // close ham menu, layout__obfuscator is on only when menu is open
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+    else{
+      console.log('Bug in swipe');
+    }
+  });
 
-  <main class="mdl-layout__content">
+  $(".swiperegion").on('swiperight',function() {
+    var $tab = $('#tablist .active').prev();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+    else{
+      // open ham menu
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+  });
+  $(".swiperegion").on('swipeleft',function() {
+    var $tab = $('#tablist .active').next();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+  });
+});
+</script>
+<!-- For swipe gestures -->
+<script src="js/jqm/jquery.mobile.custom.js"></script>
+
+
+  <main class="mdl-layout__content swiperegion">
     <section class="mdl-layout__tab-panel is-active">
       <div class="page-content">
 
@@ -91,27 +128,34 @@ body{
                 <div class="demo-card-square mdl-card mdl-shadow--2dp e" style="margin-bottom: 8px;">
 
                   <div class="mdl-card__media">
-                    <img src="img/led/led01.jpg"  style="width: 100%; height: auto; padding-bottom: 4px;">
+                    <img src="img/led/led_1.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
                     <span id="text3">
-                      <img src="img/led/led02.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led03.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led04.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led05.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led06.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led07.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led08.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led09.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led10.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led11.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led12.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
-                      <img src="img/led/led13.jpg" style="width: 100%; height: auto;">
+                      <img src="img/led/led_2.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_3.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_4.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_5.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_6.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_7.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_8.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_9.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_10.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_11.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_12.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_13.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_14.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_15.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_16.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_17.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_18.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_19.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/led/led_20.jpg" style="width: 100%; height: auto;">
                       
                       </span>
 
 
                   </div>
           <div class="mdl-card__title mdl-card--expand" style="padding-bottom: 8px; padding-top: 16px;">
-            <h2 class="mdl-card__title-text" style="margin-bottom: 8px">LED Technothlon'17</h2>
+            <h2 class="mdl-card__title-text" style="margin-bottom: 8px">LED Technothlon</h2>
           </div>
 
 
@@ -171,7 +215,9 @@ the box thinking amongst the students, Technothlon had started with its new camp
   <script src="js/expand.js"></script>
   <script src="js/jquery.min.js"></script>
 <script type="text/javascript">
-  window.screen.orientation.lock("potrait");
+  window.screen.orientation.lock("portrait").catch(function() {
+    // whatever
+});
 </script>
 </body>
 </html>

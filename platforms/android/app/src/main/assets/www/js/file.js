@@ -301,9 +301,10 @@ function onNotification(e) {
 }
 
 function openBrowser() {
-    var url = 'http://technothlon.techniche.org/technothlon2017/login';
+    var url = 'http://technothlon.techniche.org/technopediainfo';
     var target = '_blank';
     var options = 'location=no';
+    window.plugins.toast.show("Loading...",2000,"bottom");
     var ref = cordova.InAppBrowser.open(url, target, options);
 
     ref.addEventListener('loadstart', loadstartCallback);

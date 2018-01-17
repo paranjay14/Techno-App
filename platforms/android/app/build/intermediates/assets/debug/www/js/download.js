@@ -265,18 +265,18 @@ var receivedEvent =  function(id) {
 };
 
 var download = function (url, store) {
-
-var permissions = cordova.plugins.permissions
-
-    permissions.checkPermission(permissions.WRITE_EXTERNAL_STORAGE,
+    if(!checkInternet()){
+        toast.show("Cannot Download. No internet connection.", 3000 ,"bottom");
+        return;
+    }
+    cordova.plugins.permissions.checkPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE,
         function(status){
             if(!status.hasPermission){
-                permissions.requestPermission(permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
-                toast.show("Cannot Download. Permission Not Granted", 1000 ,"bottom");
+                cordova.plugins.permissions.requestPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
+                toast.show("Cannot Download. Permission Not Granted", 3000 ,"bottom");
             }
             else{
                 console.log("Already Up To Date");
-                toast.show("Cannot Download. No internet connection.", 1000 ,"bottom");
                             }
         });
     var fileTransfer = new FileTransfer();
@@ -288,14 +288,29 @@ var permissions = cordova.plugins.permissions
         fileURL,
         function(entry) {
             pdfurl = entry.toURL();
-            toast.show(pdfurl);
+            // toast.show(pdfurl);
             count--;
-            //alert("Files Downloaded in Internal Storage");
 
-        },
-        
-        function(error) {
+            toast.show("Download Finished", 2500 ,"bottom");
             
+        },
+
+        function(error) {
+            if(!checkInternet()){
+                toast.show("Cannot Download. No internet connection.", 3000 ,"bottom");
+                
+                }
+            cordova.plugins.permissions.checkPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE, function(status){
+            if(!status.hasPermission){
+                cordova.plugins.permissions.requestPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
+                toast.show("Cannot Download. Permission Not Granted", 3000 ,"bottom");
+            }
+            else{
+                console.log("Already Up To Date");
+                toast.show("Cannot Download. No internet connection.", 3000 ,"bottom");
+                            }
+        });
+
             tryagain(url,store);
         },
         false,
@@ -319,7 +334,7 @@ var tryagain = function (url, store) {
         function(entry) {
             pdfurl = entry.toURL();
             count--;
-            toast.show("File Downloaded in SD Card", 1000, "bottom");
+            toast.show("File Downloaded in SD Card", 2000, "bottom");
 
         },
                 
@@ -328,12 +343,11 @@ var tryagain = function (url, store) {
             if(count == 0)
             {
                 var toast= window.plugins.toast;
-
-                permissions.checkPermission(permissions.WRITE_EXTERNAL_STORAGE,
+            cordova.plugins.permissions.checkPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE,
         function(status){
             if(!status.hasPermission){
-                permissions.requestPermission(permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
-                toast.show("Cannot Download. Permission Not Granted", 1000 ,"bottom");
+            cordova.plugins.permissions.requestPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
+                toast.show("Cannot Download. Permission Not Granted", 3000 ,"bottom");
             }
             else{
                 console.log("Already Up To Date");

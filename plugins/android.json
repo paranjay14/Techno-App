@@ -7,46 +7,46 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-x-toast": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-file-transfer": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
-    },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
     },
     "cordova-plugin-console": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
+      "PACKAGE_NAME": "com.pilot.technothlon"
     },
-    "cordova-plugin-android-permissions": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
     },
     "cordova-plugin-screen-orientation": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.pilot.technothlon"
     }
   },
   "dependent_plugins": {
     "es6-promise-plugin": {
-      "PACKAGE_NAME": "com.techniche.technothlon"
+      "PACKAGE_NAME": "com.pilot.technothlon"
     }
   }
 }

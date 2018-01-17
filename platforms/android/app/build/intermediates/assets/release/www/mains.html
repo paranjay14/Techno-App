@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link rel="stylesheet" href="app.css">
+  <script src="material.js"></script-->
+
+  <link rel="stylesheet" href="css/hammenu-led.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+  <link rel="stylesheet" href="css/materialicons.css">
+
+
+<style>
+
+body{
+  background-color: #eee;
+
+}
+.mdl-layout__drawer{
+  border-right: 0px solid #ffffff;
+}
+.mascot{
+  position: fixed;
+  top: 200px;
+  left: 25%;
+  width: 50%;
+  height: auto;
+}
+
+.about_text
+{
+  font-family: "roboto";
+  font-size: 15px;
+  color: #212121;
+  margin-top: 8px; margin-left: 4.5%; margin-right: 4.5%;
+}
+</style>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <img src="img/mascot.png" class="mascot">
+
+    <!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MAINS</span>
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active"></a>
+      <!--a href="#fixed-tab-2" class="mdl-layout__tab is-active">What's New</a>
+      <a href="#fixed-tab-3" class="mdl-layout__tab">Contact</a-->
+    </div>
+  </header>
+  <!-- ham menu -->
+
+  <div class="mdl-layout__drawer">
+      <div class="ham-title" style="background-color: #34495e">
+        <img src="img/bgmascot.png" style="position: relative; width: 100%; height: auto; opacity: 0.05;">
+        <img src="img/technoicon.png" style="position: absolute; top: 40px; left: 16px; width: 20.6%; height: auto;">
+        <span style="position: absolute; top: 56px; left: 96px; font-weight: 500; color: #eeeeee;">Technothlon'18</span>
+        <a href="http://technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">technothlon.techniche.org</a>
+      </div>
+      <div>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="whatsnew.html"><img src="img/ham-home.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Home</a>
+        <a class="mdl-navigation__link" href="tpedia.html"><img src="img/ham-tpedia.png" style="margin-right: 32px; color: #212121; width: 8.5%; height: 8.5%">Technopedia</a>
+        <a class="mdl-navigation__link" href="register.html"><img src="img/ham-register.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Register</a>
+        <a class="mdl-navigation__link" href="LED.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">LED</a>
+        <a class="mdl-navigation__link" href="download.html"><img src="img/ham-download.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Downloads</a>
+        <a class="mdl-navigation__link" href="videos.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Videos</a>
+        <a class="mdl-navigation__link" href="blogs.html"><img src="img/ham-blog.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Blogs</a>
+        <a class="mdl-navigation__link" href="mains.html"  style="background-color: #e0e0e0; color: #f57c00;"><img src="img/ham-gallery-active.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">MAINS</a>
+        <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">FAQs</a>
+        
+      </nav>
+    </div>
+    </div>
+
+    <!-- End of Hame Menu-->
+<script>
+// swipe functionality
+$(function() {
+  $(".mdl-layout__drawer, .mdl-layout").on('swipeleft',function() {
+    if($('.mdl-layout__obfuscator').hasClass('is-visible')){
+      // close ham menu, layout__obfuscator is on only when menu is open
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+    else{
+      console.log('Bug in swipe');
+    }
+  });
+
+  $(".swiperegion").on('swiperight',function() {
+    var $tab = $('#tablist .active').prev();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+    else{
+      // open ham menu
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+  });
+  $(".swiperegion").on('swipeleft',function() {
+    var $tab = $('#tablist .active').next();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+  });
+});
+</script>
+<!-- For swipe gestures -->
+<script src="js/jqm/jquery.mobile.custom.js"></script>
+
+
+  <main class="mdl-layout__content swiperegion">
+    <section class="mdl-layout__tab-panel is-active">
+      <div class="page-content">
+
+
+        <!--Card1-->
+                <div class="demo-card-square mdl-card mdl-shadow--2dp e" style="margin-bottom: 8px;">
+
+                  <div class="mdl-card__media">
+                    <img src="img/mains/mains_1.jpg"  style="width: 100%; height: auto; padding-bottom: 4px;">
+                    <span id="text3">
+                      <img src="img/mains/mains_2.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_3.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_4.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_5.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_6.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_7.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_8.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_9.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_10.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_11.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_12.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_13.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_14.jpg" style="width: 100%; height: auto; padding-bottom: 4px;">
+                      <img src="img/mains/mains_15.jpg" style="width: 100%; height: auto;">
+                      
+                      </span>
+
+
+                  </div>
+          <div class="mdl-card__title mdl-card--expand" style="padding-bottom: 8px; padding-top: 16px;">
+            <h2 class="mdl-card__title-text" style="margin-bottom: 8px">Technothlon MAINS Events</h2>
+          </div>
+
+
+
+          <!--div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="cmore3">
+              MORE
+            </a>
+          </div-->
+        </div>
+
+
+<!--Card2-->
+        <div class="demo-card-square mdl-card mdl-shadow--2dp e" style="margin-bottom: 8px;">
+  <div class="mdl-card__title mdl-card--expand" style="padding-bottom: 8px;">
+    <h2 class="mdl-card__title-text">About Mains Structure</h2>
+  </div>
+  <div class="mdl-card__supporting-text" style="padding-bottom: 16px;">
+    It is the second round of Technothlon which is conducted during Techniche - the annual techno-management festival of IIT Guwahati. The top 50 teams from each squad compete against each other in challenging events<span id="text1"> designed to test their innovation, creativity and imagination. Exciting prizes await for the teams who prove their mettle by ‘out-thinking’ the other competitors.</span>
+  </div>
+
+</div>
+
+<!--Card3-->
+
+
+
+
+
+
+        <!-- Your content goes here --></div>
+    </section>
+
+  </main>
+</div>
+
+  <script src="cordova.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/expand.js"></script>
+  <script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+  window.screen.orientation.lock("portrait").catch(function() {
+    // whatever
+});
+</script>
+</body>
+</html>

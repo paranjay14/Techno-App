@@ -22,6 +22,7 @@ function openBrowser1() {
     var url = 'http://technothlon.techniche.org/register';
     var target = '_blank';
     var options = 'location=no';
+    window.plugins.toast.show("Loading....",2000,'bottom');
     var ref = cordova.InAppBrowser.open(url, target, options);
 
 

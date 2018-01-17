@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/apurva/Technothlon/Techno-App-5ed9b567c28dc93a169739c23d4ea5d351de966c/platforms/android/app/src/main/shaders"/></dataSet><dataSet config="release"><source path="/home/apurva/Technothlon/Techno-App-5ed9b567c28dc93a169739c23d4ea5d351de966c/platforms/android/app/src/release/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/main/shaders"/></dataSet><dataSet config="release"><source path="/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/release/shaders"/></dataSet></merger>

@@ -16,7 +16,8 @@ var receivedEvent =  function(id) {
 };
 
 function openBrowser() {
-    var url = 'http://technothlon.techniche.org/technothlon2017/login';
+    var url = 'http://technothlon.techniche.org/technopediainfo';
+    window.plugins.toast.show("Loading....", 3000 ,"bottom");
     var target = '_blank';
     var options = 'location=no';
     var ref = cordova.InAppBrowser.open(url, target, options);
@@ -40,7 +41,7 @@ function openBrowser() {
 
     function loaderrorCallback(error) {
         toast = window.plugins.toast;
-        toast.show('Connect to internet first',2000 ,'bottom');
+        toast.show('Connect to internet first',3000 ,'bottom');
         // alert('Check internet connectivity or try after sometime.');
         ref.hide();
     }

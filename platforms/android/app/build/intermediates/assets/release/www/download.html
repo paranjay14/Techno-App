@@ -5,176 +5,220 @@
   <!--link rel="stylesheet" href="app.css">
   <script src="material.js"></script-->
 
-  <link rel="stylesheet" href="css/hammenu-led.css">
-  <meta http-equiv="Content-Security-Policy" content="default-src *;  font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
-<link rel="stylesheet" href="css/materialicons.css">
+    <link rel="stylesheet" href="css/hammenu-led.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src *;  font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="css/materialicons.css">
 
-<style>
-  .mdl-layout__drawer{
-    border-right: 0px solid #ffffff;
-  }
+    <style>
+      .mdl-layout__drawer{
+        border-right: 0px solid #ffffff;
+      }
 
-body{
-  background-color: #fff;
+      body{
+        background-color: #fff;
 
-}
+      }
 
-.mascot{
-  position: fixed;
-  top: 200px;
-  left: 25%;
-  width: 50%;
-  height: auto;
-}
+      .mascot{
+        position: fixed;
+        top: 200px;
+        left: 25%;
+        width: 50%;
+        height: auto;
+      }
 
-.about_text
-{
-  font-family: "roboto";
-  font-size: 15px;
-  color: #212121;
-  margin-top: 8px; margin-left: 4.5%; margin-right: 4.5%;
-}
+      .about_text
+      {
+        font-family: "roboto";
+        font-size: 15px;
+        color: #212121;
+        margin-top: 8px; margin-left: 4.5%; margin-right: 4.5%;
+      }
 
-.select_menu
-{
-  width: 192px;
-  height: 32px;
+      .select_menu
+      {
+        width: 192px;
+        height: 32px;
 
-  background-color: #fff;
-  border-color: #757575;
-  color: #757;
-  font-family: "roboto";
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 8px;
-  margin-bottom: 8px;
+        background-color: #fff;
+        border-color: #757575;
+        color: #757;
+        font-family: "roboto";
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 8px;
+        margin-bottom: 8px;
 
-}
+      }
 
-.mybtn{
-  width:80vw;
-  height:10vh;
-  border:none;
-  background-color: #aaaaaa;
-  margin:10px;
-  padding:10px;
-  font-size: 19px;
-  color: black;
-  font-weight: 500;
-  border-radius:10px;
+      .mybtn{
+        width:80vw;
+        height:10vh;
+        border:none;
+        background-color: #aaaaaa;
+        margin:10px;
+        padding:10px;
+        font-size: 19px;
+        color: black;
+        font-weight: 500;
+        border-radius:10px;
 
-}
-#dwnbtn:active{
-border:none;
-}
+      }
+      #dwnbtn:active{
+        border:none;
+      }
 
-</style>
+    </style>
 
+<script src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
-</head>
-<body>
-  <img src="img/mascot.png" class="mascot">
+  </head>
+  <body>
+    <img src="img/mascot.png" class="mascot">
 
     <!-- Simple header with fixed tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
-            mdl-layout--fixed-tabs">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Downloads</span>
-    </div>
-    <!-- Tabs -->
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="#fixed-tab-1" class="mdl-layout__tab is-active"></a>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+    mdl-layout--fixed-tabs">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Downloads</span>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#fixed-tab-1" class="mdl-layout__tab is-active"></a>
       <!--a href="#fixed-tab-2" class="mdl-layout__tab is-active">What's New</a>
       <a href="#fixed-tab-3" class="mdl-layout__tab">Contact</a-->
-    </div>
-  </header>
-  <!-- ham menu -->
+      </div>
+    </header>
+    <!-- ham menu -->
 
-  <div class="mdl-layout__drawer">
+    <div class="mdl-layout__drawer">
       <div class="ham-title" style="background-color: #34495e">
         <img src="img/bgmascot.png" style="position: relative; width: 100%; height: auto; opacity: 0.05;">
         <img src="img/technoicon.png" style="position: absolute; top: 40px; left: 16px; width: 20.6%; height: auto;">
         <span style="position: absolute; top: 56px; left: 96px; font-weight: 500; color: #eeeeee;">Technothlon'18</span>
-        <a href="https://www.technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">www.technothlon.techniche.org</a>
+        <a href="http://technothlon.techniche.org" style="position: absolute; top: 80px; left: 96px; font-weight: 300; color: #f57c00; text-decoration: none;">technothlon.techniche.org</a>
       </div>
       <div>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="whatsnew.html"><img src="img/ham-home.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Home</a>
-        <a class="mdl-navigation__link" href="tpedia.html"><img src="img/ham-tpedia.png" style="margin-right: 32px; color: #212121; width: 8.5%; height: 8.5%">Technopedia</a>
-        <a class="mdl-navigation__link" href="register.html"><img src="img/ham-register.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Register</a>
-        <a class="mdl-navigation__link" href="LED.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">LED</a>
-        <a class="mdl-navigation__link" href="download.html" style="background-color: #e0e0e0; color: #f57c00;"><img src="img/ham-download-active.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Downloads</a>
-        <a class="mdl-navigation__link" href="videos.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Videos</a>
-        <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">FAQs</a>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="whatsnew.html"><img src="img/ham-home.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Home</a>
+          <a class="mdl-navigation__link" href="tpedia.html"><img src="img/ham-tpedia.png" style="margin-right: 32px; color: #212121; width: 8.5%; height: 8.5%">Technopedia</a>
+          <a class="mdl-navigation__link" href="register.html"><img src="img/ham-register.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Register</a>
+          <a class="mdl-navigation__link" href="LED.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">LED</a>
+          <a class="mdl-navigation__link" href="download.html" style="background-color: #e0e0e0; color: #f57c00;"><img src="img/ham-download-active.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Downloads</a>
+          <a class="mdl-navigation__link" href="videos.html"><img src="img/ham-videos.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Videos</a>
+          <a class="mdl-navigation__link" href="blogs.html"><img src="img/ham-blog.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Blogs</a>
+          <a class="mdl-navigation__link" href="mains.html"><img src="img/ham-gallery.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">MAINS</a>
+          <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">FAQs</a>
 
-      </nav>
-    </div>
+        </nav>
+      </div>
     </div>
 
     <!-- End of Hame Menu-->
 
+<script>
+// swipe functionality
+  $(function() {
+    $(".mdl-layout__drawer, .mdl-layout").on('swipeleft',function() {
+    if($('.mdl-layout__obfuscator').hasClass('is-visible')){
+      // close ham menu, layout__obfuscator is on only when menu is open
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+    else{
+      console.log('Bug in swipe');
+    }
+  });
 
-  <main class="mdl-layout__content">
-    <section class="mdl-layout__tab-panel is-active">
-      <div class="page-content" style="margin-left: 4.5%">
-        <h1 style="font-size: 24px; color: #212121; font-weight: 500; padding-top: 0px; margin-top: 8px; margin-bottom: 8px;"> Old Question Papers</h1>
+  $(".swiperegion").on('swiperight',function() {
+    var $tab = $('#tablist .active').prev();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+    else{
+      // open ham menu
+      var layout = document.querySelector('.mdl-layout');
+      layout.MaterialLayout.toggleDrawer();
+    }
+  });
+  $(".swiperegion").on('swipeleft',function() {
+    var $tab = $('#tablist .active').next();
+    if ($tab.length > 0)
+      $tab.find('a').tab('show');
+  });
+});
+</script>
+<!-- For swipe gestures -->
+<script src="js/jqm/jquery.mobile.custom.js"></script>
 
-        <select class="select_menu" id='year' style="margin-top: 8px;">
-          <option value="">SELECT YEAR</option>
-          <option value="2016">2016</option>
-          <option value="2015">2015</option>
-          <option value="2014">2014</option>
-          <option value="2013">2013</option>
-          <option value="2012">2012</option>
-          <option value="2011">2011</option>
-          <option value="2010">2010</option>
-          <option value="2009">2009</option>
-          <option value="2008">2008</option>
-        </select>
 
-        <select class="select_menu" id="category">
-          <option value="">SELECT CATEGORY</option>
-          <option value="HAUTS">HAUTS</option>
-          <option value="JUNIOR">JUNIOR</option>
-        </select>
+<main class="mdl-layout__content swiperegion">
+  <section class="mdl-layout__tab-panel is-active">
+    <div class="page-content" style="margin-left: 4.5%">
+      <h1 style="font-size: 24px; color: #212121; font-weight: 500; padding-top: 0px; margin-top: 8px; margin-bottom: 8px;">Previous Years' Question Papers</h1>
 
-        <select disabled="disabled" class="select_menu" id="language">
-          <option value="English">ENGLISH</option>
-          <option value="Hindi">HINDI</option>
-        </select>
-        <br/>
-        <button id="dwnbtn" style="font-size: 14px; color: #f57c00; font-weight: 500; padding-top: 0px; margin-top: 8px; margin-bottom: 8px;border:none;background:none">DOWNLOAD</button>
+      <select class="select_menu" id='year' style="margin-top: 8px;">
+        <option value="">SELECT YEAR</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+        <option value="2010">2010</option>
+        <option value="2009">2009</option>
+        <option value="2008">2008</option>
+      </select>
 
-      </div>
-    </section>
+      <select class="select_menu" id="category">
+        <option value="">SELECT SQUAD</option>
+        <option value="HAUTS">HAUTS</option>
+        <option value="JUNIOR">JUNIOR</option>
+      </select>
 
-  </main>
+      <select disabled="disabled" class="select_menu" id="language">
+        <option value="English">ENGLISH</option>
+        <option value="Hindi">HINDI</option>
+      </select>
+      <br/>
+      <button id="dwnbtn" style="font-size: 14px; color: #f57c00; font-weight: 500; padding-top: 0px; margin-top: 8px; margin-bottom: 8px;border:none;background:none">DOWNLOAD</button><br/>
+      <p> The papers are downloaded in - Technothlon named folder inside Internal Storage.</p>
+    </div>
+  </section>
+
+</main>
 </div>
-  <script src="cordova.js"></script>
-  <script src="js/download.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/expand.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script>
-    $('#year').change(function(){
-        var year =  $('#year').val();
-        if(year == "" ){
-            $('#language').prop('disabled', 1);
-        }else if(year == '2016' || year == '2015' || year == "2014"){
-            $('#language').prop('disabled', 0);
-            $('#language').html("<option>English</option><option>Hindi</option>");
+<script src="cordova.js"></script>
+<script src="js/download.js"></script>
+<script src="js/app.js"></script>
+<script src="js/file.js"></script>
+<script src="js/expand_card.js"></script>
+<script src="js/expand-register.js"></script>
+<script src="js/expand.js"></script>
+<script src="js/jquery.min.js"></script>
+<script>
+  $('#year').change(function(){
+    var year =  $('#year').val();
+    if(year == "" ){
+      $('#language').prop('disabled', 1);
+    }else if(year == '2017' || year == '2016' || year == '2015' || year == "2014"){
+      $('#language').prop('disabled', 0);
+      $('#language').html("<option>English</option><option>Hindi</option>");
 
-        }else{
-            $('#language').prop('disabled', 0);
-            $('#language').html("<option>English</option>");
-        }
-    });
-  </script>
-  <script type="text/javascript">
-  window.screen.orientation.lock("potrait");
+    }else{
+      $('#language').prop('disabled', 0);
+      $('#language').html("<option>English</option>");
+    }
+  });
+</script>
+<script type="text/javascript">
+  window.screen.orientation.lock("portrait").catch(function() {
+    // whatever
+});
 </script>
 </body>
 </html>
