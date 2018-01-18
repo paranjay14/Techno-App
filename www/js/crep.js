@@ -1,5 +1,59 @@
 var loadedCreps=[
- {
+   {
+    "Name": "KARTIK GUPTA",
+    "Contact1": "7009251350",
+    "Contact2": "7009251350",
+    "Webmail": "gupta170101030@iitg.ernet.in",
+    "City": "NAWANSHAHR",
+    "State": "PUNJAB",
+    "Region": "NORTH"
+  },
+  {
+    "Name": "AAYUSH BANSAL",
+    "Contact1": "9414336987",
+    "Contact2": "9414336987",
+    "Webmail": "aayus170123001@iitg.ernet.in",
+    "City": "JAIPUR",
+    "State": "RAJASTHAN",
+    "Region": "WEST"
+  },
+  {
+    "Name": "KUSHAGRA MAHAJAN",
+    "Contact1": "9140294574",
+    "Contact2": "9140294574",
+    "Webmail": "kusha170123029@iitg.ernet.in",
+    "City": "KANPUR",
+    "State": "UTTAR PRADESH",
+    "Region": "NORTH"
+  },
+  {
+    "Name": "ASHISH AGARWAL",
+    "Contact1": "8447822348",
+    "Contact2": "8447822348",
+    "Webmail": "ashis170123011@iitg.ernet.in",
+    "City": "RUDRAPUR",
+    "State": "UTTARAKHAND",
+    "Region": "NORTH"
+  },
+  {
+    "Name": "YASH AGARWAL",
+    "Contact1": "9131431243",
+    "Contact2": "9131431243",
+    "Webmail": "yash170106065@iitg.ernet.in",
+    "City": "TIKAMGARH",
+    "State": "MADHYA PRADESH",
+    "Region": "CENTRAL"
+  },
+  {
+    "Name": "VIVEK KUMAR",
+    "Contact1": "8077963598",
+    "Contact2": "8077963598",
+    "Webmail": "vivek170101080@iitg.ernet.in",
+    "City": "AGRA",
+    "State": "UTTAR PRADESH",
+    "Region": "NORTH"
+  },
+  {
    "Name": "NAMAN JAIN",
    "Contact1": "9977635130",
    "Contact2": "9425485804",
