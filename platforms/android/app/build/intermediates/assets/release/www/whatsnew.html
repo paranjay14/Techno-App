@@ -374,7 +374,7 @@ $(function() {
                 <b>Hauts Squad-</b> Students of classes 11th and 12th.<br>
                 <b> Note:</b> The class of the student at the time of the examination in the month of July is considered.
                 <br>
-                <b>Team formation : </b>The members can be from same class or different class. For example: a team consisting of one member from class IX and other from class X is perfectly acceptable for Junior squad. The basic requirements for team formation are they should consist exactly two members from the same squad and the same institution.</p>
+                <b>Team formation : </b>The members can be from same class or different class. For example: a team consisting of one member from class IX and other from class X is perfectly acceptable for Junior squad. The basic requirements for team formation are they should consist exactly two members from the same squad and the same institution. The registration charges per team is ₹150</p>
 
                 <!--Levels-->
 
@@ -457,7 +457,8 @@ $(function() {
       <div class="mdl-card__supporting-text mdl-card--expand" id="card" style="padding-bottom:0px; padding-top:0px;">
         <ul style="position:relative; margin-bottom:0px;">
           <!-- <li>Register Online through App!</li> -->
-          <li>Technopedia'18 is now live!</li>
+          <li>Technopedia'18 is now live! Attempt the First Question for free this time. Try now!</li>
+          <li>Registration Fees has been updated to Rs 150 per team.</li>
         </ul>
       </div>
       <!--Generated list-->
@@ -497,7 +498,7 @@ $(function() {
 
 
     <!--Card3-->
-    <a href="https://www.facebook.com/hashtag/technocoupdoeil?source=embed">
+    <a href="https://www.facebook.com/search/posts/?q=%23technocoupdoeil&filters_rp_author=%7B%22name%22%3A%22author%22%2C%22args%22%3A%22184392818302783%22%7D&filters_rp_chrono_sort=%7B%22name%22%3A%22chronosort%22%2C%22args%22%3A%22%22%7D">
       <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-card2" id="original" style="margin-bottom: 8px;">
 
         <div class="mdl-card__media">
@@ -769,13 +770,13 @@ $(function() {
 
                 <div class="demo-card-square mdl-card mdl-shadow--2dp">
                   <ul style="list-style:none; margin-bottom:0px;">
-                    <li style="border-bottom: 1px solid rgba(0,0,0,0.12); padding-bottom: 8px; height: 64px;"><a href="#" onclick='window.open("https://www.facebook.com/technothlon.techniche","_system");' style="color: #212121;">
+                    <li style="border-bottom: 1px solid rgba(0,0,0,0.12); padding-bottom: 8px; height: 64px;"><a href="#" onclick='window.open("fb://page/184392818302783","_system");' style="color: #212121;">
                       <img src="img/fb.png" style="width: 48px; height: 48px; position: absolute; top:8px; left: 8px;">
                       <h6 style="margin: 0px; padding: 0px; font-size: 14px; font-weight: 500; position: absolute; top: 16px; left: 72px;">Facebook</h6>
                       <h6 style="padding: 0px; margin:0px; font-size: 12px; font-weight: 300; position: absolute; top: 40px; left: 72px;">Like our FB page for latest updates!</h6></a>
                     </li>
 
-                    <li style="border-bottom: 1px solid rgba(0,0,0,0.12); padding-bottom: 8px; height: 64px;"><a  href="#" onclick='window.open("mail://technothlon@techniche.org","_system");' style="color: #212121;">
+                    <li style="border-bottom: 1px solid rgba(0,0,0,0.12); padding-bottom: 8px; height: 64px;"><a  href="#" onclick='window.open("mailto://technothlon@techniche.org","_system");' style="color: #212121;">
 
                       <img src="img/email.png" style="width: 48px; height: 48px; position: absolute; top:70px; left: 8px;">
                       <h6 style="margin: 0px; padding: 0px; font-size: 14px; font-weight: 500; position: absolute; top: 78px; left: 72px;">Email</h6>
@@ -861,14 +862,20 @@ $(function() {
 	    // });
 	  }
     var response = "<option>Select City</option> ";
+    var crxw=0;
     for (x=0; x<crep.length; x++){
       if(crep[x]['State'].toUpperCase() == $('#state').val() && !response.toUpperCase().includes(crep[x]['City'].toUpperCase())){
         response += "<option value='" + crep[x]['City'] +"'>" + crep[x]['City'] +"</option>";  
+        crxw = crxw + 1;
       }
     }
+      if(crxw == 0) {
+        response += "<option>No City</option>";
+      }
     $('#city').prop('disabled', 0);
 
     $('#city').html(response);
+    response = "<option>Select City</option> ";
   });
 	
 	

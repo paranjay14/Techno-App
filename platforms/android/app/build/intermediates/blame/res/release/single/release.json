@@ -12,6 +12,10 @@
         "source": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
     },
     {
+        "merged": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/res/merged/release/layout_activity_photo.xml.flat",
+        "source": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/main/res/layout/activity_photo.xml"
+    },
+    {
         "merged": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_icon.png.flat",
         "source": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },

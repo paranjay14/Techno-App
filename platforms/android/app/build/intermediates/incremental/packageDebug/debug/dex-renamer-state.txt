@@ -1,4 +1,4 @@
-#Thu Jan 18 16:00:14 IST 2018
-base.0=/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Thu Jan 18 19:33:11 IST 2018
+base.0=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
-file.0=/home/paranjay/Pictures/Techno-App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+file.0=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

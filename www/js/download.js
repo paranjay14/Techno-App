@@ -281,7 +281,7 @@ var download = function (url, store) {
         });
     var fileTransfer = new FileTransfer();
     var uri = encodeURI(url);
-    var fileURL =  cordova.file.externalRootDirectory + "Technothlon/Previous Years' Papers/" + store;
+    var fileURL =  cordova.file.externalRootDirectory + "Technothlon/Previous Years Papers/" + store;
     var pdfurl;
     fileTransfer.download(
         uri,
@@ -326,7 +326,7 @@ var download = function (url, store) {
 var tryagain = function (url, store) {
     var fileTransfer = new FileTransfer();
     var uri = encodeURI(url);
-    var fileURL =  cordova.file.externalRootDirectory + "Technothlon/Previous Years' Papers/" + store;
+    var fileURL =  cordova.file.externalRootDirectory + "Technothlon/Previous Years Papers/" + store;
     var pdfurl;
     fileTransfer.download(
         uri,
