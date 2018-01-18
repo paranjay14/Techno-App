@@ -70,16 +70,15 @@
               "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
               "count": 1
             }
-          ]
+          ],
+          "/manifest/application": [],
+          "/manifest": []
         }
       }
     }
   },
   "installed_plugins": {
     "cordova-plugin-android-permissions": {
-      "PACKAGE_NAME": "com.pilot.technothlon"
-    },
-    "cordova-plugin-console": {
       "PACKAGE_NAME": "com.pilot.technothlon"
     },
     "cordova-plugin-device": {
@@ -395,7 +394,6 @@
   ],
   "plugin_metadata": {
     "cordova-plugin-android-permissions": "1.0.0",
-    "cordova-plugin-console": "1.1.0",
     "cordova-plugin-device": "2.0.1",
     "cordova-plugin-file": "5.0.0",
     "cordova-plugin-file-transfer": "1.7.0",

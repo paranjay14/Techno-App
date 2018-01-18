@@ -279,7 +279,6 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "cordova-plugin-android-permissions": "1.0.0",
-  "cordova-plugin-console": "1.1.0",
   "cordova-plugin-device": "2.0.1",
   "cordova-plugin-file": "5.0.0",
   "cordova-plugin-file-transfer": "1.7.0",

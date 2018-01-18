@@ -10,9 +10,6 @@
     "cordova-plugin-android-permissions": {
       "PACKAGE_NAME": "com.pilot.technothlon"
     },
-    "cordova-plugin-console": {
-      "PACKAGE_NAME": "com.pilot.technothlon"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.pilot.technothlon"
     },

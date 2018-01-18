@@ -24,6 +24,10 @@
         "source": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/main/res/drawable-hdpi/ic_action_previous_item.png"
     },
     {
+        "merged": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/res/merged/debug/layout_activity_photo.xml.flat",
+        "source": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/main/res/layout/activity_photo.xml"
+    },
+    {
         "merged": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_remove.png.flat",
         "source": "/home/apurva/Technothlon/d/Technoapp/platforms/android/app/src/main/res/drawable-xxhdpi/ic_action_remove.png"
     },
