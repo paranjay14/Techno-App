@@ -273,12 +273,21 @@ module.exports = [
     "id": "cordova-plugin-x-toast.tests",
     "file": "plugins/cordova-plugin-x-toast/test/tests.js",
     "pluginId": "cordova-plugin-x-toast"
+  },
+  {
+    "id": "com-sarriaroman-photoviewer.PhotoViewer",
+    "file": "plugins/com-sarriaroman-photoviewer/www/PhotoViewer.js",
+    "pluginId": "com-sarriaroman-photoviewer",
+    "clobbers": [
+      "PhotoViewer"
+    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
   "cordova-plugin-android-permissions": "1.0.0",
+  "cordova-plugin-console": "1.1.0",
   "cordova-plugin-device": "2.0.1",
   "cordova-plugin-file": "5.0.0",
   "cordova-plugin-file-transfer": "1.7.0",
@@ -289,7 +298,8 @@ module.exports.metadata =
   "cordova-plugin-splashscreen": "5.0.1",
   "cordova-plugin-statusbar": "2.4.1",
   "cordova-plugin-whitelist": "1.3.3",
-  "cordova-plugin-x-toast": "2.6.0"
+  "cordova-plugin-x-toast": "2.6.0",
+  "com-sarriaroman-photoviewer": "1.1.11"
 };
 // BOTTOM OF METADATA
 });
