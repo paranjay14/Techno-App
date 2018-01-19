@@ -188,7 +188,7 @@
       </select>
       <br/>
       <p id="Hello"></p>
-      <br>
+
       <button id="dwnbtn" style="font-size: 15px; color: white; font-weight: 500; padding: 7px; padding-left:10px; padding-right:10px; margin-top: 8px; margin-bottom: 8px;border:1.5px solid #2e6da4;background:#337ab7; border-radius:5px; width:40%;">Download</button><br/>
       <p> The papers are downloaded in - Technothlon named folder inside Internal Storage.</p>
     </div>
@@ -208,9 +208,20 @@
   		$('#dwnbtn').prop('disabled', 1);
       $('#language').prop('disabled', 1);
       $('#category').prop('disabled', 1);
+var ar=[{"17EH":"12MB","17HH":"15MB","17EJ":"12MB","17HJ":"15MB","16EH":"4MB","16HH":"3MB","16EJ":"3MB","16HJ":"2MB","15EH":"5MB","15HH":"4MB","15EJ":"4MB","15HJ":"3MB","14EH":"7MB","14HH":"1MB","14EJ":"8MB","14HJ":"1MB","13EH":"4MB","13EJ":"4MB","12EH":"4MB","12EJ":"4MB","11EH":"9MB","11EJ":"9MB","10EH":"600KB","10EJ":"500KB","09EH":"600KB","09EJ":"500KB","08EH":"300KB","08EJ":"300KB"}];
+  function changeTxt(){
+        var language = $('#language').val();
+    var year =  $('#year').val();
+    var squad =  $('#category').val();
+          $('#dwnbtn').prop('disabled', 0);
+      $('#Hello').html("The file you want is of " + ar[0][year[2]+year[3]+language[0]+squad[0]] + ". Please wait till the file downloads.");
+  }
 
   $('#year').change(function(){
+    var language = $('#language').val();
     var year =  $('#year').val();
+    var squad =  $('#category').val();
+    if(!(year == "" || squad == "" || language == "" )){ changeTxt();} 
     if(year == "" ){
       $('#category').prop('disabled', 1);
     }
@@ -219,10 +230,12 @@
     }
   });
   $('#category').change(function(){
-  	var squad = $('#category').val();
+    var squad = $('#category').val();
     var year =  $('#year').val();
-  	if(squad == ""){
-  		$('#language').prop('disabled', 1);
+    var language = $('#language').val();
+    if(!(year == "" || squad == "" || language == "" )){ changeTxt();} 
+    if(squad == ""){
+      $('#language').prop('disabled', 1);
   	}
   	else if(year == '2017' || year == '2016' || year == '2015' || year == "2014"){
       $('#language').prop('disabled', 0);
@@ -241,9 +254,8 @@
   		$('#dwnbtn').prop('disabled', 1);
   	}
   	else{
-  		$('#Hello').html(year+language+squad);
-  		$('#dwnbtn').prop('disabled', 0);
-  	}
+      changeTxt();
+    }
   });
 
 </script>
