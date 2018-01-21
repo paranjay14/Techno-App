@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jan 20 02:28:25 IST 2018
+#Sun Jan 21 15:21:53 IST 2018
 210.set=ASSET
 14.set=ASSET
 180.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/fonts/roboto/Roboto-Regular.ttf
@@ -244,6 +244,7 @@
 191.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
 170.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/img/ham-register.png
 162.set=ASSET
+268.set=ASSET
 37.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
 123.set=ASSET
 229.set=ASSET
@@ -372,6 +373,7 @@
 85.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/layouts/partials/sidebar.html
 139.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
 32.set=ASSET
+268.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
 60.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/img/mains/mains_7.jpg
 114.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 91.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
@@ -480,7 +482,7 @@
 181.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
 121.set=ANDROID_RESOURCE
 227.set=ASSET
-count=268
+count=269
 27.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
 77.set=ASSET
 79.base=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release
@@ -635,7 +637,7 @@ count=268
 214.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/img/fb.png
 137.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/img/led/led_18.jpg
 215.set=ASSET
-266.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/plugins/cordova-plugin-file/www/DirectoryEntry.js
+266.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/base.html
 189.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/bootstrap/css/bootstrap-theme.min.css.map
 112.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/js/expand.js
 19.set=ASSET
@@ -702,7 +704,7 @@ count=268
 215.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/img/ham-tpedia-active.png
 138.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/cordova-js-src/android/promptbasednativeapi.js
 225.set=ASSET
-267.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/plugins/cordova-plugin-x-toast/test/tests.js
+267.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/plugins/cordova-plugin-file/www/DirectoryEntry.js
 113.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/js/materialize.js
 29.set=ASSET
 90.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/img/led/led_11.jpg
@@ -768,6 +770,7 @@ count=268
 216.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/mipmap-mdpi-v4/icon.png
 139.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/img/ham-home.png
 235.set=ASSET
+268.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/assets/release/www/plugins/cordova-plugin-x-toast/test/tests.js
 176.set=ASSET
 114.file=/home/apurva/Technothlon/d/Technoapp/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/layout/activity_photo.xml
 39.set=ASSET

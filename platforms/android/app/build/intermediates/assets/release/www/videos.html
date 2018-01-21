@@ -13,9 +13,6 @@
   <!-- This one is definitely BLOCKING it instead of UNBLOCKING  -->
   <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; font-src 'self' data: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://technothlon.techniche.org/function/citywcrep "> -->
 
-
-
-
   <style>
   /*for videos-
   To make our App look more like an app than a webview. Disable text selection, zooming etc -
@@ -230,23 +227,22 @@ h4.active
 
 
 </style>
-
 <!-- jquery 3.2.1 is buggish with swipes, while jquery 1 doesn't support swipe -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body class="bg-color1">
 
-  <img src="img/mascot.png" class="mascot1">
+	<img src="img/mascot.png" class="mascot1">
 
-  <!-- Simple header with fixed tabs. -->
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header  mdl-layout--fixed-tabs">
+	<!-- Simple header with fixed tabs. -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header  mdl-layout--fixed-tabs">
 
 
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">Videos</span>
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<!-- Title -->
+				<span class="mdl-layout-title">Home</span>
       </div>
       <!-- Tabs -->
 <!-- 
@@ -275,7 +271,7 @@ h4.active
       <!-- <a class="mdl-navigation__link" href="certificates.html"><img src="img/ham-register.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">Certificates</a> -->
       <a class="mdl-navigation__link" href="LED.html"><img src="img/ham-led.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">LED</a>
       <a class="mdl-navigation__link" href="download.html"><img src="img/ham-download.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">Downloads</a>
-      <a class="mdl-navigation__link" href="videos.html" style="background-color: #e0e0e0; color: #f57c00;"><img src="img/ham-videos-active.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">Videos</a>
+      <a class="mdl-navigation__link" href="videos.html"  style="background-color: #e0e0e0; color: #f57c00;"><img src="img/ham-videos-active.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">Videos</a>
       <a class="mdl-navigation__link" href="blogs.html"><img src="img/ham-blog.png" style="margin-right: 32px; width: 8.5%; height: 8.5%">Blogs</a>
       <a class="mdl-navigation__link" href="mains.html"><img src="img/ham-gallery.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">MAINS</a>
       <a class="mdl-navigation__link" href="faq.html"><img src="img/ham-faq.png" style="margin-right: 32px; width: 8.5%; height: 8.5%;">FAQs</a>
@@ -283,7 +279,6 @@ h4.active
   </div>
 </div>
 <!-- End of Ham Menu-->
-
 
 
 <script>
@@ -321,34 +316,11 @@ $(function() {
 <script src="js/jqm/jquery.mobile.custom.js"></script>
 
 <!-- <main class="mdl-layout__content" id="content"> -->
-<!-- <main class="mdl-layout__content swiperegion" id="content">
+<main class="mdl-layout__content swiperegion" id="content">
 
-  <div role="tabpanel" class="mdl-js-ripple-effect"> -->
-
-    <!-- Nav tabs -->
-    <!-- <ul class="nav nav-tabs" role="tablist" id="tablist">
-      <li role="presentation" >
-        <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a>
-      </li>
-      <li role="presentation" class="active">
-        <a href="#whatsnew" aria-controls="whatsnew" role="tab" data-toggle="tab">What's New</a>
-      </li>
-      <li role="presentation">
-        <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a>
-      </li>
-    </ul> -->
-
-    <!-- Tab panes -->
-        
-        <!--AboutUs-->
-        
-
-       
-      <!-- <div data-role="page" role="tabpanel" class="tab-pane fade in active" id="whatsnew"> -->
-      <main class="mdl-layout__content swiperegion">
-        <section class="mdl-layout__tab-panel is-active">
+        <!-- <section class="mdl-layout__tab-panel" id="fixed-tab-1"> -->
+          <section class="mdl-layout__tab-panel is-active">
           <div class="page-content">
-
 
             <div class="demo-card-image mdl-card mdl-shadow--2dp" style="margin-bottom: 8px;">
               <div class="mdl-card__title mdl-card--expand" style="padding: 0px; min-height: 170px;"><a href="#" onclick='window.plugins.toast.show("Loading...",2000,"bottom");  window.open("https://www.youtube.com/watch?v=HPmSk_TTh-g", "_system", "fullscreen=yes"); '><img src="img/videos/v7.png" class="myvideo"/></a>
@@ -392,53 +364,55 @@ $(function() {
 
             </div>
 
-        <!-- <div class="demo-card-image mdl-card mdl-shadow--2dp" style="margin-bottom: 8px;">
-          <div class="mdl-card__title mdl-card--expand" style="padding: 0px; min-height: 170px;"><a href="video7.html"><img src="img/t14.jpg" class="myvideo"/></a>
           </div>
-
-        </div> -->
-
+        </section>
 
 
-      </div>
-
-
-      <!-- Your content goes here -->
-    </section>
-
-  </main>
-
-  <!-- </div> -->
-  
-
-</div>
-
-
-
-
-<script src="cordova.js"></script>
-<script src="js/app.js"></script>
-<script src="js/file.js"></script>
-<script src="js/expand_card.js"></script>
-<script src="js/expand-register.js"></script>
-<script src="js/potrait.js"></script>
+  <script src="cordova.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/file.js"></script>
+  <script src="js/expand_card.js"></script>
+  <script src="js/expand-register.js"></script>
+  <script src="js/potrait.js"></script>
 
 <script>
-$(document).ready(function () {
- var storage = window.localStorage;
- var c = storage.getItem('count');
- for(i=1; i<=c; i++)
- {
-   var msg = storage.getItem("msg"+i);
-   $('#mylist').append('<li class="text6">'+ msg +'</li>');
- }
-});
+	$(document).ready(function () {
+   var storage = window.localStorage;
+   var c = storage.getItem('count');
+   for(i=1; i<=c; i++)
+   {
+     var msg = storage.getItem("msg"+i);
+     $('#mylist').append('<li class="text6">'+ msg +'</li>');
+   }
+ });
 </script>
 
-
-
 <script>
-  $(document).ready(function () {
+	var d = new Date();
+	var month = [];
+	month[0] = "Jan";
+	month[1] = "Feb";
+	month[2] = "March";
+	month[3] = "April";
+	month[4] = "May";
+	month[5] = "June";
+	month[6] = "July";
+	month[7] = "Aug";
+	month[8] = "Sept";
+	month[9] = "Oct";
+	month[10] = "Nov";
+	month[11] = "Dec";
+	var n = month[d.getMonth()];
+	
+	$('#month').html('(' + n + ')');
+</script>
+<script type="text/javascript">
+  window.screen.orientation.lock("portrait").catch(function() {
+    // whatever
+  });
+</script>
+<script>
+	$(document).ready(function () {
    var storage = window.localStorage;
    var c = storage.getItem('icardcount');
 
@@ -448,10 +422,10 @@ $(document).ready(function () {
      $('#whatsnew_content').append(msg + '<br/>');
    }
  });
-  
+	
 </script>
 <script>
-  $(document).ready(function () {
+	$(document).ready(function () {
    var storage = window.localStorage;
    var c = storage.getItem('coupSet');
    if(c == 1)
@@ -460,18 +434,11 @@ $(document).ready(function () {
      $('#tcoupid').html(storage.getItem('coupId'));
    }
  });
-  
-</script>
-
-<script type="text/javascript">
-  window.screen.orientation.lock("portrait").catch(function() {
-    // whatever
-});
+	
 </script>
 
 <script>
-  $(document).ready(function () {
-
+	$(document).ready(function () {
    var storage = window.localStorage;
    var c1 = storage.getItem('tcardcount');
    for(i=1; i<=c1; i++)
@@ -482,7 +449,6 @@ $(document).ready(function () {
  });
 </script>
 
-
-</body>
+</main></div></body>
 
 </html>
