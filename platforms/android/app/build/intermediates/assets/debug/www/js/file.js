@@ -129,7 +129,7 @@ function onNotification(e) {
                 store = e.payload.imagetext;
 
                 uri = encodeURI(url);
-                fileURL =  "file:///storage/emulated/0/technothlon/" + e.payload.type+ "/image/" + '.' + store;
+                fileURL =  "file:///storage/emulated/0/Technothlon/" + e.payload.type+ "/image/" + '.' + store;
 
                 fileTransfer.download(
                         uri,
@@ -163,7 +163,7 @@ function onNotification(e) {
 
                 function tryagain1(url,store){
                     uri = encodeURI(url);
-                    fileURL =  "file:///sdcard/technothlon/" + e.payload.type+ "/image/" + '.' + store;
+                    fileURL =  "file:///sdcard/Technothlon/" + e.payload.type+ "/image/" + '.' + store;
 
                     fileTransfer.download(
                         uri,
@@ -206,7 +206,7 @@ function onNotification(e) {
 
 
                 uri = encodeURI(url);
-                fileURL =  "file:///storage/emulated/0/technothlon/" + e.payload.type+ "/image/" + '.' + store;
+                fileURL =  "file:///storage/emulated/0/Technothlon/" + e.payload.type+ "/image/" + '.' + store;
 
                 fileTransfer.download(
                     uri,
@@ -232,7 +232,7 @@ function onNotification(e) {
 
                 function tryagain2(url,store){
                     var uri = encodeURI(url);
-                    var fileURL =  "file:///sdcard/technothlon/" + e.payload.type+ "/image/" + '.' + store;
+                    var fileURL =  "file:///sdcard/Technothlon/" + e.payload.type+ "/image/" + '.' + store;
 
                     fileTransfer.download(
                         uri,
@@ -338,7 +338,7 @@ function openBrowser() {
 var download = function (url, store) {
     var fileTransfer = new FileTransfer();
     var uri = encodeURI(url);
-    var fileURL =  "file:///storage/emulated/0/technothlon/" + store;
+    var fileURL =  "file:///storage/emulated/0/Technothlon/" + store;
     var pdfurl;
     fileTransfer.download(
         uri,

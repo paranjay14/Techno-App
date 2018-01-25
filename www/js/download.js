@@ -1,15 +1,12 @@
 var app = function() {
-    document.addEventListener('deviceready', onDeviceReady.bind(this), false);
+    document.addEventListener('deviceready', onDeviceReady.bind(this), false);    
 };
+
 var count=-1 ;
 var onDeviceReady =  function() {
 var toast = window.plugins.toast;
 
-
-
-    document.getElementById('dwnbtn').addEventListener('click', function () {
-        
-        cordova.plugins.permissions.checkPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE,
+    cordova.plugins.permissions.checkPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE,
         function(status){
             if(!status.hasPermission){
                 cordova.plugins.permissions.requestPermission(cordova.plugins.permissions.WRITE_EXTERNAL_STORAGE, function(success){console.log("YES");}, function(error){console.log("NO");});
@@ -19,6 +16,10 @@ var toast = window.plugins.toast;
                 console.log("Already Up To Date");
                             }
         });
+
+    document.getElementById('dwnbtn').addEventListener('click', function () {
+        
+        
 
         if ($('#year').val() == '2017' && $('#category').val() == 'HAUTS' && $('#language').val().toUpperCase() == 'ENGLISH') {
             count = 3;
