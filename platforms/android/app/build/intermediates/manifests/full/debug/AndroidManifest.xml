@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pilot.technothlon"
+    package="com.pilot.technoapp"
     android:hardwareAccelerated="true"
-    android:versionCode="10200"
-    android:versionName="1.2.0" >
+    android:versionCode="10800"
+    android:versionName="1.8.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -38,7 +38,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="com.pilot.technothlon.MainActivity"
+            android:name="com.pilot.technoapp.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleTop"
