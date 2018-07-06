@@ -917,8 +917,8 @@ $(function() {
     var response = "<option>Select City</option> ";
     var crxw=0;
     for (x=0; x<crep.length; x++){
-      if(crep[x]['State'].toUpperCase() == $('#state').val() && !response.toUpperCase().includes(crep[x]['City'].toUpperCase())){
-        response += "<option value='" + crep[x]['City'] +"'>" + crep[x]['City'] +"</option>";  
+      if(crep[x]['State'].toUpperCase() == $('#state').val() && !response.toUpperCase().includes(crep[x]['CITY'].toUpperCase())){
+        response += "<option value='" + crep[x]['CITY'] +"'>" + crep[x]['CITY'] +"</option>";  
         crxw = crxw + 1;
       }
     }
@@ -940,7 +940,7 @@ $(function() {
     var response = '<div class="row"><div class="col-md-4"></div><div class="col-md-4"><h4>City :&nbsp;&nbsp;' +  $("#city").val() + '</h4></div><div class="col-md-4"></div></div>'
 
     for(var x =0; x<crep.length; x++){
-      if(crep[x]['State'].toUpperCase() === $('#state').val() && crep[x]['City'].toUpperCase() === $('#city').val().toUpperCase()){
+      if(crep[x]['State'].toUpperCase() === $('#state').val() && crep[x]['CITY'].toUpperCase() === $('#city').val().toUpperCase()){
 
         var cr = crep[x];
         response +='<div class="col-md-6 col-xs-12"><div class="center bigText myOrange"><h4><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;' + cr['Name'] + '</h4>';
