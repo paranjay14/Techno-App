@@ -4,12 +4,12 @@
         "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/dce25632b1682ad292a3bbb895be4b0a/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9e429534d3a9f4c152c7bd76e7138e5a/res/layout/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9e429534d3a9f4c152c7bd76e7138e5a/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9e429534d3a9f4c152c7bd76e7138e5a/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
@@ -132,12 +132,12 @@
         "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/dce25632b1682ad292a3bbb895be4b0a/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/dce25632b1682ad292a3bbb895be4b0a/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
         "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
         "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9e429534d3a9f4c152c7bd76e7138e5a/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/dce25632b1682ad292a3bbb895be4b0a/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
@@ -148,12 +148,12 @@
         "source": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/src/main/res/drawable-mdpi/ic_action_remove.png"
     },
     {
-        "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
-        "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/e7cd59165b8420ec223df30ae4d95714/res/layout/notification_media_action.xml"
-    },
-    {
         "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stat_onesignal_default.png.flat",
         "source": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/src/main/res/drawable-hdpi/ic_stat_onesignal_default.png"
+    },
+    {
+        "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/e7cd59165b8420ec223df30ae4d95714/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",

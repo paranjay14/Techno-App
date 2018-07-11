@@ -13,6 +13,7 @@
     "cordova-android": "^7.0.0",
     "cordova-plugin-android-permissions": "^1.0.0",
     "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-customurlscheme": "^4.3.0",
     "cordova-plugin-device": "^2.0.1",
     "cordova-plugin-file": "^5.0.0",
     "cordova-plugin-file-transfer": "^1.7.0",
@@ -40,7 +41,13 @@
       "cordova-plugin-device": {},
       "cordova-plugin-android-permissions": {},
       "cordova-plugin-screen-orientation": {},
-      "onesignal-cordova-plugin": {}
+      "onesignal-cordova-plugin": {},
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "technothlon",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
+      }
     },
     "platforms": [
       "android"

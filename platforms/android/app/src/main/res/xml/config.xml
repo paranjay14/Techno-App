@@ -41,6 +41,9 @@
     <feature name="OneSignalPush">
         <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
     </feature>
+    <feature name="LaunchMyApp">
+        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp" />
+    </feature>
     <name>Technothlon</name>
     <description>
         Technothlon - The Ultimate Test Of Logic.

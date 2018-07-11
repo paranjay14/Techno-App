@@ -281,6 +281,14 @@ module.exports = [
     "clobbers": [
       "OneSignal"
     ]
+  },
+  {
+    "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+    "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
+    "pluginId": "cordova-plugin-customurlscheme",
+    "clobbers": [
+      "window.plugins.launchmyapp"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -298,7 +306,8 @@ module.exports.metadata =
   "cordova-plugin-statusbar": "2.4.1",
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-x-toast": "2.6.0",
-  "onesignal-cordova-plugin": "2.4.1"
+  "onesignal-cordova-plugin": "2.4.1",
+  "cordova-plugin-customurlscheme": "4.3.0"
 };
 // BOTTOM OF METADATA
 });
