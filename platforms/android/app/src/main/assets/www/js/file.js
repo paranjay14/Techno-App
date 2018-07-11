@@ -22,10 +22,7 @@ var onDeviceReady =  function() {
     receivedEvent('deviceready');
     fileTransfer = new FileTransfer();
     toast = window.plugins.toast;
-    pushNotification = window.plugins.pushNotification;
     storage = window.localStorage;
-    screen = window.screen;
-    screen.lockOrientation('portrait');
 
 
     if (storage.getItem('countSet') != 1) {
@@ -47,15 +44,19 @@ var onDeviceReady =  function() {
     count = storage.getItem('count');
     iccount = storage.getItem('icardcount');
     tccount = storage.getItem('tcardcount');
+   document.addEventListener('deviceready', function () {
+  // Enable to debug issues.
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
+  var notificationOpenedCallback = function(jsonData) {
+    console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+  };
 
-    pushNotification.register(
-            successHandler,
-            errorHandler,
-            {
-                "senderID": "651243666380",
-                "ecb": "onNotification"
-            });
-
+  window.plugins.OneSignal
+    .startInit("cff36258-2a82-47bf-9f4f-c765b737e814")
+    .handleNotificationOpened(notificationOpenedCallback)
+    .endInit();
+}, false);
 
 };
 

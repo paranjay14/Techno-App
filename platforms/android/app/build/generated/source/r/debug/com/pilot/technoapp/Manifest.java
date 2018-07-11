@@ -10,6 +10,7 @@ package com.pilot.technoapp;
 public final class Manifest {
   public static final class permission {
     public static final String C2D_MESSAGE="com.pilot.technoapp.permission.C2D_MESSAGE";
+    public static final String RECEIVE_ADM_MESSAGE="com.pilot.technoapp.permission.RECEIVE_ADM_MESSAGE";
   }
 
 }

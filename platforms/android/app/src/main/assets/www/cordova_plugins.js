@@ -273,6 +273,14 @@ module.exports = [
     "id": "cordova-plugin-x-toast.tests",
     "file": "plugins/cordova-plugin-x-toast/test/tests.js",
     "pluginId": "cordova-plugin-x-toast"
+  },
+  {
+    "id": "onesignal-cordova-plugin.OneSignal",
+    "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+    "pluginId": "onesignal-cordova-plugin",
+    "clobbers": [
+      "OneSignal"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -290,7 +298,7 @@ module.exports.metadata =
   "cordova-plugin-statusbar": "2.4.1",
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-x-toast": "2.6.0",
-  "cordova-custom-config": "5.0.2"
+  "onesignal-cordova-plugin": "2.4.1"
 };
 // BOTTOM OF METADATA
 });

@@ -38,6 +38,9 @@
     <feature name="Toast">
         <param name="android-package" value="nl.xservices.plugins.Toast" />
     </feature>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
     <name>Technothlon</name>
     <description>
         Technothlon - The Ultimate Test Of Logic.

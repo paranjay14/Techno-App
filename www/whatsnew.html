@@ -529,6 +529,22 @@ $(function() {
       
     </div>
 
+            <!--Card7-->
+    <a href="http://technothlon.techniche.org/technothlon2018/app/admit" onclick="window.plugins.toast.show('Loading...',2000,'bottom');">
+      <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-card2" id="original" style="margin-bottom: 8px;">
+
+        <div class="mdl-card__media">
+          <img src="img/admitcard.jpeg" style="width: 100%; height: auto;" id="tcoupimg">
+        </div>
+        <div class="mdl-card__title mdl-card--expand">
+          <h2 class="mdl-card__title-text">Admit Cards</h2>
+        </div>
+        <div class="mdl-card__supporting-text mdl-card--expand" id="card" style="padding-top: 0px; padding-bottom: 16px;">
+          Click here to get your admit cards
+        </div>
+
+      </div>
+    </a>
     <!--Card6-->
     <a href="http://technothlon.techniche.org/technothlon2018/app/directions" onclick="window.plugins.toast.show('Loading...',2000,'bottom');">
       <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-card2" id="original" style="margin-bottom: 8px;">
@@ -546,22 +562,7 @@ $(function() {
       </div>
     </a>
 
-        <!--Card7-->
-    <a href="http://technothlon.techniche.org/technothlon2018/app/admit" onclick="window.plugins.toast.show('Loading...',2000,'bottom');">
-      <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-card2" id="original" style="margin-bottom: 8px;">
 
-        <div class="mdl-card__media">
-          <img src="img/admitcard.jpeg" style="width: 100%; height: auto;" id="tcoupimg">
-        </div>
-        <div class="mdl-card__title mdl-card--expand">
-          <h2 class="mdl-card__title-text">Admit Cards</h2>
-        </div>
-        <div class="mdl-card__supporting-text mdl-card--expand" id="card" style="padding-top: 0px; padding-bottom: 16px;">
-          Click here to get your admit cards
-        </div>
-
-      </div>
-    </a>
 
 
     <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-bottom: 8px;">
@@ -711,11 +712,7 @@ $(function() {
             <span><img src="img/mail.png" class="icon_ashu"><span style="font-size: 14px; font-family: "roboto"; font-weight: 500; margin-left: 8px; color: #f57c00;">shambhavi@technothlon.techniche.org</span></span><br>
           </div>
 
-				          <!--div class="mdl-card__actions mdl-card--border" style="margin-top: 8px;">
-				            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="cmore1">
-				              MORE
-				            </a>
-				          </div-->
+
 				        </div>
 				        
 				        <!--Card2-->
@@ -905,8 +902,6 @@ $(function() {
     <script src="js/file.js"></script>
     <script src="js/expand_card.js"></script>
     <script src="js/expand-register.js"></script>
-    <script src="js/potrait.js"></script>
-
     <script>
      function jsonDataParse2(json){
        console.log(json);
@@ -915,10 +910,6 @@ $(function() {
      function jsonDataParse(result){
        console.log('2');
        result=result.response;
-	  // var regex = new RegExp('col-md-4 col-xs-6', 'g');
-	  // result = result.replace(regex, 'col-md-4');
-	  // var reg = new RegExp('City Representatives in '+$(this).val(), 'g');
-	  // result = result.replace(reg, '<br/>');
 	  console.log(result);
 	  $('#crepsbycity').html(result);
 	}
@@ -927,27 +918,6 @@ $(function() {
    if($('#state').val() === "") {
      $('#city').prop('disabled', 1);
    }
-   else {
-	    // var city = "http://technothlon.techniche.org/function/app/citywcrep";
-	    // $('#city').html('<option value="">Loading</option>');
-	    // $.ajax({
-	    //   url: city,
-	    //   type: "GET",
-	    //   dataType: "jsonp",
-	    //   // method: 'post',
-	    //   // You can't POST using JSONP...it simply doesn't work that way, it creates a <script> element to fetch data...which has to be a GET request.
-	    //   crossDomain: true,
-	    //   data: {'jsonpCallback': 'jsonDataParse2','state': $(this).val(),'mode':'app_crep_interface'},
-	    //   jsonpCallback: 'jsonDataParse2',
-	    //   success: function(result) {
-	    //     $('#city').prop('disabled', 0);
-	    //     $('#city').html(result.response);
-	    //   },
-	    //   error: function(e){
-	    //     alert("Error loading list");
-	    //   }
-	    // });
-	  }
     var response = "<option>Select City</option> ";
     var crxw=0;
     for (x=0; x<crep.length; x++){
