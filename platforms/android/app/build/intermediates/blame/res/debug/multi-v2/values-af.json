@@ -4,7 +4,7 @@
             "outputFile": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
             "map": [
                 {
-                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/57f5b611d02699edaf386de95c9b88bf/res/values-af/values.xml",
+                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/e5e62030e8303b1af8a8a038dda0b540/res/values-af/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/dce25632b1682ad292a3bbb895be4b0a/res/values-af/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,350,538,662,770,979,1099,1246,1373,1598,1704,1892,2017,2215,2395,2487,2576",
-                        "endColumns": "104,187,123,107,208,119,146,126,224,105,187,124,197,179,91,88,103",
-                        "endOffsets": "349,537,661,769,978,1098,1245,1372,1597,1703,1891,2016,2214,2394,2486,2575,2679"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,402,530,642,851,975,1126,1459,1684,1794,1982,2111,2309,2493,2589,2682",
-                        "endColumns": "108,187,127,111,208,123,150,130,224,109,187,128,197,183,95,92,107",
-                        "endOffsets": "209,397,525,637,846,970,1121,1252,1679,1789,1977,2106,2304,2488,2584,2677,2785"
-                    }
-                },
-                {
-                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9e429534d3a9f4c152c7bd76e7138e5a/res/values-af/values-af.xml",
+                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8dd2c0b0985d86d8e0a8cb0fbfea5378/res/values-af/values-af.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/cb8070ea62a79cf0ef72a8e37885b560/res/values-af/values.xml",
+                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/abe148a31afdbad7c93471c918b203ef/res/values-af/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,350,538,662,770,979,1099,1246,1373,1598,1704,1892,2017,2215,2395,2487,2576",
+                        "endColumns": "104,187,123,107,208,119,146,126,224,105,187,124,197,179,91,88,103",
+                        "endOffsets": "349,537,661,769,978,1098,1245,1372,1597,1703,1891,2016,2214,2394,2486,2575,2679"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,402,530,642,851,975,1126,1459,1684,1794,1982,2111,2309,2493,2589,2682",
+                        "endColumns": "108,187,127,111,208,123,150,130,224,109,187,128,197,183,95,92,107",
+                        "endOffsets": "209,397,525,637,846,970,1121,1252,1679,1789,1977,2106,2304,2488,2584,2677,2785"
+                    }
+                },
+                {
+                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/978837c6c37d571cd5221495515cfa25/res/values-af/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

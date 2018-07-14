@@ -1,0 +1,27 @@
+var lat = 12.9716;
+var lang = 77.5946;
+var gr = lat + ',' + lang
+var label = encodeURI('Exam Centre XYZ'); // encode the label!
+window.open('geo:0,0?q=' + gr + '('  + label + ')' , '_system')
+
+/*
+Android, no pin (just open at location)
+geo:LAT,LNG
+Android, with pin
+geo:0,0?q=LAT,LNG
+Android, with pin, with custom label
+geo:0,0?q=LAT,LNG(LABEL)
+*/
+
+/*
+window.open('fb://hashtag/JaiTechno' , '_system')
+Will Open Any App using particular intents
+window.open('https://medium.com/@technothlon' , '_system')
+http://www.youtube.com/watch?v=cxLG2wtE7TM
+*/
+
+notificationOpenedCallback: {"action":{"type":0},"notification":{"isAppInFocus":false,"shown":true,"androidNotificationId":xxxx,"displayType":0,"payload":{"notificationID":"xxxxx","title":"New Blog Out!","body":"Computer Science at IITG","additionalData":{"type":"blog","url":"https://medium.com/cse-at-iit-guwhati/computer-science-and-engineering-iit-guwahati-1a3be7fd9b5a"},"largeIcon":"http://technothlon.techniche.org/images/logo-white-background.jpg","bigPicture":"https://cdn-images-1.medium.com/max/1000/1*qKGKMhQ70uOpmzFXXkwFEA.jpeg","smallIconAccentColor":"#00ff00","launchURL":"technothlon://blogs.html","lockScreenVisibility":1,"groupMessage":"","fromProjectNumber":"xxxxxx","priority":5,"rawPayload":"{\"google.sent_time\":1531339267197,\"google.ttl\":xxxxx,\"custom\":\"{\\\"a\\\":{\\\"type\\\":\\\"blog\\\",\\\"url\\\":\\\"https:\\\\\\/\\\\\\/medium.com\\\\\\/cse-at-iit-guwhati\\\\\\/computer-science-and-engineering-iit-guwahati-1a3be7fd9b5a\\\"},\\\"ti\\\":\\\"xxxxx\\\",\\\"u\\\":\\\"technothlon:\\\\\\/\\\\\\/blogs.html\\\",\\\"i\\\":\\\"7xxxxxx\\\",\\\"tn\\\":\\\"Send Blog\\\"}\",\"oth_chnl\":\"\",\"pri\":\"5\",\"vis\":\"1\",\"bgac\":\"#00ff00\",\"from\":\"180814326757\",\"alert\":\"Computer Science at IITG\",\"bicon\":\"https:\\/\\/cdn-images-1.medium.com\\/max\\/1000\\/1*qKGKMhQ70uOpmzFXXkwFEA.jpeg\",\"licon\":\"http:\\/\\/technothlon.techniche.org\\/images\\/logo-white-background.jpg\",\"title\":\"New Blog Out!\",\"grp_msg\":\"\",\"google.message_id\":\"xxxxx\",\"google.priority\":\"normal\",\"notificationId\":xxxx}"}}}
+
+
+keytool -genkey -v -keystore T18.keystore -alias T18 -keyalg RSA -keysize 2048 -validity 10000
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore T18.keystore app-release-unsigned.apk T18

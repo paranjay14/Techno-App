@@ -8,6 +8,7 @@ var fileurl;
 var iccount;
 var tccount;
 var toast;
+
 var app = function() {
     document.addEventListener('deviceready', onDeviceReady.bind(this), false);
     var el = document.getElementById('technopedia');
@@ -49,6 +50,7 @@ var onDeviceReady =  function() {
   // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
   
   var notificationOpenedCallback = function(jsonData) {
+    
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
   };
 

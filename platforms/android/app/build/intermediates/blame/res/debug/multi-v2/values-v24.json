@@ -4,7 +4,7 @@
             "outputFile": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/e7cd59165b8420ec223df30ae4d95714/res/values-v24/values-v24.xml",
+                    "source": "/home/apurva/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/cf1a5f71bc4ea36e6eaac2f122151490/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
