@@ -1,4 +1,4 @@
-#Sat Jul 14 15:45:16 IST 2018
-base.0=/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Wed Jul 10 10:37:47 KST 2019
+base.0=/home/sparsh/Techno-App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
-file.0=/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+file.0=/home/sparsh/Techno-App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

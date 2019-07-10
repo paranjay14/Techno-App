@@ -495,8 +495,8 @@ public final class R {
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f01000f, 0x7f010017
-      };
+      0x7f01000f, 0x7f010017
+    };
     /**
      * <p>This symbol is the offset where the {@link com.pilot.technoapp.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
@@ -548,9 +548,9 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f010010, 0x7f010011, 0x7f010012, 
-        0x7f010013, 0x7f010014, 0x7f010015
-      };
+      0x010100b3, 0x7f010010, 0x7f010011, 0x7f010012, 
+      0x7f010013, 0x7f010014, 0x7f010015
+    };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
@@ -707,9 +707,9 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 
-        0x7f010009, 0x7f01000a
-      };
+      0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 
+      0x7f010009, 0x7f01000a
+    };
     /**
      * <p>This symbol is the offset where the {@link com.pilot.technoapp.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
@@ -808,9 +808,9 @@ public final class R {
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-        0x01010532, 0x01010533, 0x0101053f, 0x7f010004, 
-        0x7f01000b, 0x7f01000c
-      };
+      0x01010532, 0x01010533, 0x0101053f, 0x7f010004, 
+      0x7f01000b, 0x7f01000c
+    };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -903,8 +903,8 @@ public final class R {
      * @see #LoadingImageView_imageAspectRatioAdjust
      */
     public static final int[] LoadingImageView={
-        0x7f010001, 0x7f01000d, 0x7f01000e
-      };
+      0x7f010001, 0x7f01000d, 0x7f01000e
+    };
     /**
      * <p>This symbol is the offset where the {@link com.pilot.technoapp.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
@@ -958,8 +958,8 @@ public final class R {
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
-        0x7f010000, 0x7f010002, 0x7f010016
-      };
+      0x7f010000, 0x7f010002, 0x7f010016
+    };
     /**
      * <p>This symbol is the offset where the {@link com.pilot.technoapp.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
