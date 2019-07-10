@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/home/sparsh/Techno-App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
+            "map": [
+                {
+                    "source": "/home/sparsh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/575adcb3aa19c8b07b68f9a788e163be/res/values-en-rIN/values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/apurva/Technothlon/application/Techno-App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
