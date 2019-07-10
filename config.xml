@@ -40,7 +40,6 @@
     <preference name="ShowSplashScreenSpinner" value="False" />
     <preference name="StatusBarBackgroundColor" value="#2c3d50" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <engine name="android" spec="^7.0.0" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-x-toast" spec="^2.6.0" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.1" />
@@ -60,4 +59,5 @@
         <variable name="ANDROID_HOST" value=" " />
         <variable name="ANDROID_PATHPREFIX" value="/" />
     </plugin>
+    <engine name="android" spec="^7.0.0" />
 </widget>

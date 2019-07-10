@@ -20,6 +20,7 @@ var toast = window.plugins.toast;
     document.getElementById('dwnbtn').addEventListener('click', function () {
         
         
+
         if ($('#year').val() == '2017' && $('#category').val() == 'HAUTS' && $('#language').val().toUpperCase() == 'ENGLISH') {
             count = 3;
             toast.show("Downloading " + count + " file(s) ...",1000,'bottom');
